@@ -1,0 +1,5 @@
+com\pvt\dao\UsersDao.class
+com\pvt\dao\CommonDao.class
+com\pvt\dao\DaoI.class
+com\pvt\dao\NewsDao.class
+com\pvt\dao\CategoriesDao.class
