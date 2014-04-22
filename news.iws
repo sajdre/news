@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="fix base, nullpointer on beanService,">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../news/news.ipr" afterPath="$PROJECT_DIR$/../news/news.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../news/news.iws" afterPath="$PROJECT_DIR$/../news/news.iws" />
+    <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
     </list>
     <ignored path="news.iws" />
@@ -17,7 +16,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397986155684" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397918486602" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398180558529" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184038709" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398013337091" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -34,7 +33,7 @@
     <file path="/AdminController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397836899952" ignored="false" />
     <file path="/UsersService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398005576170" ignored="false" />
     <file path="/CategoryService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398020910620" ignored="false" />
-    <file path="/NewsService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398006201617" ignored="false" />
+    <file path="/NewsService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184024085" ignored="false" />
     <file path="/ShowCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397841125317" ignored="false" />
     <file path="/mainadmin.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397842022454" ignored="false" />
     <file path="/AddWriteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397842456453" ignored="false" />
@@ -62,6 +61,7 @@
     <file path="/editnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397937069042" ignored="false" />
     <file path="/Authentication.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398009140293" ignored="false" />
     <file path="dbtable:/newsc7a0df0a/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398017136053" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/news.iws" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184138781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="17" class="com.pvt.NewsService" package="com.pvt">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="18" class="com.pvt.NewsService" package="com.pvt">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -312,7 +312,7 @@
       <file leaf-file-name="NewsService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="25" selection-start="526" selection-end="526" vertical-scroll-proportion="0.7343283">
+            <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.39089185">
               <folding />
             </state>
           </provider>
@@ -394,7 +394,6 @@
         <option value="$PROJECT_DIR$/dao/src/main/resources/Users.hbm.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/java/admin/EditCategoryCommand.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteNewsCommand.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" />
@@ -406,6 +405,7 @@
         <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/utils/Hbutils.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/Category.hbm.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
       </list>
     </option>
   </component>
@@ -491,7 +491,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -584,7 +584,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,7 +595,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -606,9 +606,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -666,17 +666,20 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -706,20 +709,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -756,16 +756,16 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="-Duser.country=en -Duser.language=en" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
       <method />
     </configuration>
     <configuration default="false" name="tomcat remote" type="Remote" factoryName="Remote">
@@ -879,7 +879,11 @@
       <created>1398179961594</created>
       <updated>1398179961594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix base, nullpointer on beanService,">
+      <created>1398184057378</created>
+      <updated>1398184057378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -906,7 +910,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.4909091" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.4909091" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15833333" sideWeight="0.67291313" order="5" side_tool="false" content_ui="tabs" />
@@ -915,6 +919,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4770017" sideWeight="0.43030304" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31918505" sideWeight="0.4848485" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318182" sideWeight="0.21731749" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2719697" sideWeight="0.085178874" order="1" side_tool="true" content_ui="tabs" />
@@ -927,7 +932,6 @@
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31918505" sideWeight="0.4848485" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1058,9 +1062,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoriesDao.java">
@@ -1135,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="526" selection-end="526" vertical-scroll-proportion="0.7343283">
+        <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.39089185">
           <folding />
         </state>
       </provider>
