@@ -16,7 +16,7 @@ public class EditCategoryCommand extends Command {
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 
-		Category cat = new Category();
+		Category cat;
         CategoryService cs = new CategoryService();
 		cat = cs.getCategoryById((Serializable)Integer.parseInt(request.getParameter("id")));
         cs.updateCategory(cat);
