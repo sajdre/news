@@ -11,5 +11,11 @@
             </generator>
         </id>
         <property name="category" column="CATEGORY" type="string"/>
+
+        <list name="news" lazy="false" cascade="all">
+            <key column="id"/>
+            <list-index column="id" base="0"/>
+            <one-to-many class="com.pvt.News"/>
+        </list>
     </class>
 </hibernate-mapping>

@@ -23,12 +23,12 @@
     <table name="CAT_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
     <table name="NEWS" schema="SAJ" catalog="" type="TABLE">
       <column name="ID" sqlType="VARCHAR2" length="15" precision="0" nullable="false" jdbcType="12" />
-      <column name="CATEGORY" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" />
       <column name="TITLE" sqlType="VARCHAR2" length="50" precision="0" nullable="true" jdbcType="12" />
-      <column name="ANNOTATION" sqlType="CLOB" length="4000" precision="0" nullable="true" jdbcType="2005" />
       <column name="AUTHOR" sqlType="VARCHAR2" length="30" precision="0" nullable="false" jdbcType="12" />
-      <column name="CREATIONDATE" sqlType="DATE" length="7" precision="0" nullable="true" jdbcType="93" />
-      <column name="CONTENT" sqlType="CLOB" length="4000" precision="0" nullable="true" jdbcType="2005" />
+      <column name="CREATIONDATE" sqlType="VARCHAR2" length="15" precision="0" nullable="true" jdbcType="12" />
+      <column name="ANNOTATION" sqlType="VARCHAR2" length="150" precision="0" nullable="true" jdbcType="12" />
+      <column name="CATEGORY" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" />
+      <column name="CONTENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="true" jdbcType="12" />
       <primary-key name="PRIMARY_1" columns="ID" />
     </table>
     <table name="USERS" schema="SAJ" catalog="" type="TABLE">

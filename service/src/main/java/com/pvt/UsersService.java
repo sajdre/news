@@ -14,7 +14,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class UsersService {
-    UsersDao usersdao;
+    UsersDao usersdao = new UsersDao();
     Logger log = Logger.getLogger(UsersService.class);
     public void saveUser(Users user){
          usersdao.save(user);

@@ -5,7 +5,6 @@ import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.exception.SQLGrammarException;
 
 import java.io.Serializable;
 import java.util.List;
@@ -26,10 +25,10 @@ public class CommonDao<T> implements DaoI<T> {
         }
         try{
         Transaction t = session.beginTransaction();
-        session.persist(entity);
+        session.save(entity);
         t.commit();
-        }catch(SQLGrammarException e){
-              log.info(e);
+        }catch(Exception e){
+              e.printStackTrace();
         }
     }
 
@@ -61,13 +60,15 @@ public class CommonDao<T> implements DaoI<T> {
 
     public T getById(Serializable id) {
         T t = null;
-
+        try{
         Transaction tran = session.getTransaction();
         if(!(tran.isActive())){
            tran.begin();
             }
         t = (T) session.get(clazz, id);
-
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         return t;
     }
 

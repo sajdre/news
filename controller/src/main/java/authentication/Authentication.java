@@ -35,7 +35,7 @@ public class Authentication implements Filter {
 		HttpSession session = req.getSession();
 
 		if(session.getAttribute("login") == (Object) true){
-			chain.doFilter(request, response);
+            chain.doFilter(request, response);
 			return;
 		}else{
 			session.setAttribute("login", null);
@@ -68,9 +68,12 @@ public class Authentication implements Filter {
         UsersService us = new UsersService();
         Users user;
         user = us.getUserById(email);
+        if (user == null){
+            return false;
+        }
         if(user.getPassword().equals(password)){
             return true;
         }
-        return false;
+    return false;
     }
 }

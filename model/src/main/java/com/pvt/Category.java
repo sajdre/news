@@ -7,8 +7,7 @@ import java.util.List;
 public class Category implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
-    private List<News> newsByCategory;
+    private List<News> news;
 	private String category;
 	private Integer id;
 
@@ -19,12 +18,6 @@ public class Category implements Serializable {
 		this.id = id;
 	}
 
-	public List<News> getNewsByCategory() {
-		return newsByCategory;
-	}
-	public void setNewsByCategory(List<News> newsByCategory) {
-		this.newsByCategory = newsByCategory;
-	}
 	public String getCategory() {
 		return category;
 	}
@@ -54,4 +47,13 @@ public class Category implements Serializable {
 		// TODO Auto-generated method stub
 		return id + "\n" + category;
 	}
+
+
+    public List<News> getNews() {
+        return news;
+    }
+
+    public void setNews(List<News> news) {
+        this.news = news;
+    }
 }
