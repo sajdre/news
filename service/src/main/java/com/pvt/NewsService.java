@@ -7,10 +7,9 @@ import java.util.List;
 
 
 public class NewsService {
-    NewsDao newsdao = new NewsDao();
-    public void saveNews(News news){
-        newsdao.save(news);
-    }
+    NewsDao newsdao;
+
+
     public void deleteNews(News news){
         newsdao.delete(news);
     }
