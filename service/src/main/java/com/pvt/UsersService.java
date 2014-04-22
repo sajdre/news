@@ -1,7 +1,6 @@
 package com.pvt;
 
 import com.pvt.dao.UsersDao;
-import org.apache.log4j.Logger;
 
 import java.io.Serializable;
 import java.util.List;
@@ -15,16 +14,7 @@ import java.util.List;
  */
 public class UsersService {
     UsersDao usersdao = new UsersDao();
-    Logger log = Logger.getLogger(UsersService.class);
-    public void saveUser(Users user){
-         usersdao.save(user);
-    }
-    public void deleteUser(Users user){
-        usersdao.save(user);
-    }
-    public void updateUser(Users user){
-        usersdao.update(user);
-    }
+
     public Users getUserById(Serializable id){
         Users user;
         user = usersdao.getById(id);
