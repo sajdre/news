@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
     </list>
     <ignored path="news.iws" />
@@ -16,7 +15,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397986155684" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397918486602" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398195659880" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398195697853" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397677973469" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -204,7 +203,7 @@
       <file leaf-file-name="UsersService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="321" selection-end="321" vertical-scroll-proportion="0.20238096">
+            <state line="19" column="52" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35416666">
               <folding />
             </state>
           </provider>
@@ -891,7 +890,11 @@
       <created>1398195670852</created>
       <updated>1398195670852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Successful commit i hope">
+      <created>1398195702820</created>
+      <updated>1398195702820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1111,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="321" selection-end="321" vertical-scroll-proportion="0.20238096">
+        <state line="19" column="52" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35416666">
           <folding />
         </state>
       </provider>
