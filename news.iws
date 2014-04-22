@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
     </list>
     <ignored path="news.iws" />
@@ -16,7 +15,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397986155684" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397918486602" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184038709" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184151659" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398013337091" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -61,7 +60,7 @@
     <file path="/editnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397937069042" ignored="false" />
     <file path="/Authentication.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398009140293" ignored="false" />
     <file path="dbtable:/newsc7a0df0a/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398017136053" ignored="false" />
-    <file path="$PROJECT_DIR$/../news/news.iws" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184138781" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/news.iws" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184151137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +311,7 @@
       <file leaf-file-name="NewsService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.39089185">
+            <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.6149254">
               <folding />
             </state>
           </provider>
@@ -883,7 +882,11 @@
       <created>1398184057378</created>
       <updated>1398184057378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix base, nullpointer on beanService,">
+      <created>1398184181905</created>
+      <updated>1398184181905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -908,9 +911,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.4909091" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.4909091" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15833333" sideWeight="0.67291313" order="5" side_tool="false" content_ui="tabs" />
@@ -1137,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.39089185">
+        <state line="22" column="77" selection-start="462" selection-end="462" vertical-scroll-proportion="0.6149254">
           <folding />
         </state>
       </provider>
