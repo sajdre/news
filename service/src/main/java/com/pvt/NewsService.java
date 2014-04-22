@@ -14,6 +14,7 @@ import java.util.List;
  */
 public class NewsService {
     NewsDao newsdao = new NewsDao();
+    int i = 1;
     public void saveNews(News news){
         newsdao.save(news);
     }
