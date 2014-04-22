@@ -5,7 +5,7 @@ import com.pvt.dao.NewsDao;
 import java.io.Serializable;
 
 public class NewsService {
-    NewsDao newsdao = new NewsDao();
+    NewsDao newsdao;
     public void saveNews(News news){
         newsdao.save(news);
     }
