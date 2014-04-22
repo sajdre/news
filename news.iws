@@ -15,7 +15,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397986155684" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397918486602" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184151659" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184196956" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398013337091" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -60,7 +60,7 @@
     <file path="/editnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397937069042" ignored="false" />
     <file path="/Authentication.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398009140293" ignored="false" />
     <file path="dbtable:/newsc7a0df0a/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398017136053" ignored="false" />
-    <file path="$PROJECT_DIR$/../news/news.iws" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184151137" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/news.iws" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398184196418" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -886,7 +886,11 @@
       <created>1398184181905</created>
       <updated>1398184181905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix base, nullpointer on beanService,">
+      <created>1398184203359</created>
+      <updated>1398184203359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
