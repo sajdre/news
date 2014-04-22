@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
     </list>
     <ignored path="news.iws" />
@@ -15,7 +16,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397986155684" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397918486602" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398195697853" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398195854781" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397677973469" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -200,10 +201,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UsersService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UsersService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35416666">
+            <state line="27" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,10 +237,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NewsService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="67" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="8" column="80" selection-start="134" selection-end="134" vertical-scroll-proportion="0.13392857">
               <folding />
             </state>
           </provider>
@@ -331,9 +332,9 @@
         <option value="$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommonDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/admin/EditCategoryCommand.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
       </list>
     </option>
   </component>
@@ -894,7 +895,11 @@
       <created>1398195702820</created>
       <updated>1398195702820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Successful commit i hope">
+      <created>1398195865402</created>
+      <updated>1398195865402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -921,7 +926,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.4878788" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.4878788" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15681818" sideWeight="0.6746167" order="5" side_tool="false" content_ui="tabs" />
@@ -1105,16 +1110,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="67" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="27" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35416666">
+        <state line="8" column="80" selection-start="134" selection-end="134" vertical-scroll-proportion="0.13392857">
           <folding />
         </state>
       </provider>
