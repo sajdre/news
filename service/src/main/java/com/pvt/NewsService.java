@@ -13,7 +13,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class NewsService {
-    NewsDao newsdao = new NewsDao();
+    NewsDao newsdao;
 
 
     public void deleteNews(News news){
