@@ -5,13 +5,7 @@ import com.pvt.dao.NewsDao;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Sasha
- * Date: 18.04.14
- * Time: 20:51
- * To change this template use File | Settings | File Templates.
- */
+
 public class NewsService {
     NewsDao newsdao = new NewsDao();
     public void saveNews(News news){
