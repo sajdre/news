@@ -2,7 +2,6 @@ package com.pvt.dao;
 
 import com.pvt.utils.Hbutils;
 import org.apache.log4j.Logger;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -12,7 +11,8 @@ import java.util.List;
 public class CommonDao<T> implements DaoI<T> {
 
     Logger log = Logger.getLogger(CommonDao.class);
-    Session session = Hbutils.getSessionFactory().getCurrentSession();
+    Session session;
+    Transaction t;
     protected Class<T> clazz;
 
     public CommonDao(Class<T> clazz) {
@@ -20,67 +20,112 @@ public class CommonDao<T> implements DaoI<T> {
     }
 
     public void save(T entity) {
+        session = Hbutils.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
         try{
-        Transaction t = session.beginTransaction();
+        t = session.beginTransaction();
         session.save(entity);
         t.commit();
-        }catch(Exception e){
-              e.printStackTrace();
+        }catch(RuntimeException e){
+            try{
+             t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
+            }
+        }finally {
+            if (session != null && session.isOpen()) {
+            session.close();
+        }
         }
     }
 
     public void delete(T entity) {
+        session = Hbutils.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
-        Transaction trans = session.getTransaction();
-        if(!(trans.isActive())){
-            trans.begin();
-        }
+        try{
+        t = session.beginTransaction();
         session.delete(entity);
-        trans.commit();
+        t.commit();
+        }catch(RuntimeException e){
+            try{
+                t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
+            }
+        }finally {
+            if (session != null && session.isOpen()) {
+                session.close();
+            }
+        }
     }
 
     public void update(T entity) {
+        session = Hbutils.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
         try {
-            Transaction trans = session.beginTransaction();
+            t = session.beginTransaction();
             session.update(entity);
-            trans.commit();
-        } catch (Exception e) {
-            e.printStackTrace();
+            t.commit();
+        }catch(RuntimeException e){
+            try{
+                t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
+            }
+        }finally {
+            if (session != null && session.isOpen()) {
+                session.close();
+            }
         }
     }
 
 
     public T getById(Serializable id) {
-        T t = null;
+        session = Hbutils.getSessionFactory().getCurrentSession();
+        T entity = null;
         try{
-        Transaction tran = session.getTransaction();
-        if(!(tran.isActive())){
-           tran.begin();
+        t = session.beginTransaction();
+        entity = (T) session.get(clazz, id);
+        }catch(RuntimeException e){
+            try{
+                t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
             }
-        t = (T) session.get(clazz, id);
-        }catch (Exception e){
-            e.printStackTrace();
+        }finally {
+            if (session != null && session.isOpen()) {
+            session.close();
+            }
         }
-        return t;
+        return entity;
     }
 
     public List<T> list() throws Exception {
+        List<T> list = null;
+        session = Hbutils.getSessionFactory().getCurrentSession();
         try {
-            Transaction t = session.beginTransaction();
-            List<T> list = session.createCriteria(clazz).list();
+            t = session.beginTransaction();
+            list = session.createCriteria(clazz).list();
             t.commit();
-            return list;
-        } catch (HibernateException e) {
-            throw new HibernateException(e);
+
+        } catch(RuntimeException e){
+            try{
+                t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
+            }
+        }finally {
+            if (session != null && session.isOpen()) {
+            session.close();
         }
+        }
+        return list;
     }
 }
 

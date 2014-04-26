@@ -8,7 +8,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.Serializable;
 
 public class EditNewsCommand extends Command{
 
@@ -16,9 +15,9 @@ public class EditNewsCommand extends Command{
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 
-		News news = new News();
+		News news;
         NewsService ns = new NewsService();
-		news = ns.getNewsById((Serializable)request.getParameter("id"));
+		news = ns.getNewsById(Integer.parseInt(request.getParameter("id")));
         ns.getNewsById(news);
 		request.setAttribute("news", news);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("../WEB-INF/adminpages/editnews.jsp");

@@ -29,7 +29,7 @@ public class ShowOnDateCommand extends Command {
 		Iterator<Category> iterator = list.iterator();
 		while(iterator.hasNext()){
 			Category cat = (Category) iterator.next();
-			List<News> news = cat.getNewsByCategory();
+			List<News> news = cat.getNews();
 			Iterator<News> iterator2 = news.iterator();
 			while(iterator2.hasNext()){
 				News item = (News) iterator2.next();

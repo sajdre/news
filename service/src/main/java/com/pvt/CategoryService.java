@@ -37,5 +37,8 @@ public class CategoryService {
         return list;
     }
 
+    public List<News> getNewsByCategory(Category cat){
+        return categorydao.getNewsByCategory(cat);
+    }
 
 }

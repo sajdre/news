@@ -13,7 +13,6 @@
 <input type="hidden" name="operation" value="addwritenews">
 <input type="hidden" name="category" value="<%=request.getParameter("category")%>">
 <input type="hidden" name="author" value="<%=request.getAttribute("username")%>"><br>
-id:<input name="id"><br>
 title:<input name="title"><br>
 annotation:<input name="annotation"><br>
 content:<br>

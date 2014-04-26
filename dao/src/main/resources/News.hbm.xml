@@ -4,13 +4,18 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 <class name="com.pvt.News" table="news">
-<id column="ID" name="id" type="java.lang.String">
+<id name="id" type="java.lang.Integer">
+    <column name="ID"/>
+    <generator class="increment">
+        <param name="increment">id</param>
+    </generator>
 </id>
 <property name="category" column="category" type="java.lang.Integer"/>
-<property name="title" column="title" type="string"/>
-<property name="annotation" column="annotation" type="string"/>
+<property name="title" column="TITLE" type="string"/>
+<property name="annotation" column="ANNOTATION" type="string"/>
 <property name="creationdate" column="CREATIONDATE" type="string"/>
 <property name="author" column="AUTHOR" type="string"/>
 <property name="content" column="content" type="string"/>
+
 </class>
 </hibernate-mapping>

@@ -16,6 +16,7 @@ public class AddWriteNewsCommand extends Command{
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
+        NewsService ns = new NewsService();
 		News news = new News();
 		Date today;
 		String dateOut;
@@ -23,15 +24,14 @@ public class AddWriteNewsCommand extends Command{
 		dateFormatter = new SimpleDateFormat("yyyy.MM.dd");
 		today = new Date();
 		dateOut = dateFormatter.format(today);
-        NewsService ns = new NewsService();
 		news.setAnnotation(request.getParameter("annotation"));
 		news.setAuthor(request.getParameter("author"));
 		news.setCategory(Integer.parseInt(request.getParameter("category")));
 		news.setCreationdate(dateOut);
 		news.setTitle(request.getParameter("title"));
 		news.setContent(request.getParameter("content"));
-		news.setId(request.getParameter("id"));
-		ns.saveNews(news);
+
+        ns.save(news);
 		try {
 			response.sendRedirect("/admin/");
 		} catch (IOException e) {

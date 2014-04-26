@@ -11,18 +11,21 @@
 <body>
 <ul>
 
+<jsp:useBean id="categories" scope="request" type="java.util.List"/>
 <c:forEach var="category" items="${categories}">
-	<li><c:out value="${category.category}"></c:out>
+    <h1><li><c:out value="${category.category}"></c:out></h1>
 <ul>
-<c:forEach var="item" items="${category.newsByCategory}">
-	<li><h3><a href="siteController?operation=shownews&id=<c:out value="${item.id}"></c:out> "><c:out value="${item.title}"></c:out></a></h3>
-	<br><c:out value="${item.annotation}"></c:out></li>
-	
+<c:forEach var="item" items="${category.news}">
+	<h3><li><a href="?operation=shownews&id=<c:out value="${item.id}"></c:out> "><c:out value="${item.title}"></c:out></a></li></h3>
+	<h4><span></span><c:out value="${item.annotation}"></c:out></span></h4>
+
 </c:forEach>
 </ul>
 </li>
 
 </c:forEach>
 </ul>
+
+
 </body>
 </html>

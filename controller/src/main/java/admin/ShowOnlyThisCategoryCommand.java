@@ -2,6 +2,7 @@ package admin;
 
 import com.pvt.Category;
 import com.pvt.CategoryService;
+import com.pvt.News;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ShowOnlyThisCategoryCommand extends Command {
@@ -21,6 +23,12 @@ public class ShowOnlyThisCategoryCommand extends Command {
 		CategoryService cs = new CategoryService();
 		Serializable id = Integer.parseInt(request.getParameter("id"));
 		list.add(cs.getCategoryById(id));
+        Iterator<Category> itList = list.iterator();
+        while(itList.hasNext()){
+            Category cat = itList.next();
+            List<News> news = cs.getNewsByCategory(cat);
+            cat.setNews(news);
+        }
 		request.setAttribute("categories", list);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("../WEB-INF/adminpages/mainadmin.jsp");
 		try {

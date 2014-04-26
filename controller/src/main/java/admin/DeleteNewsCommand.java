@@ -7,7 +7,6 @@ import com.pvt.NewsService;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.Serializable;
 
 public class DeleteNewsCommand extends Command {
 
@@ -16,7 +15,7 @@ public class DeleteNewsCommand extends Command {
 		// TODO Auto-generated method stub
 
         NewsService ns = new NewsService();
-        News news = ns.getNewsById((Serializable) request.getParameter("id"));
+        News news = ns.getNewsById(Integer.parseInt(request.getParameter("id")));
         ns.deleteNews(news);
 		try {
 			response.sendRedirect("/admin/");

@@ -40,10 +40,10 @@ public class News implements Serializable {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	public String getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	
@@ -53,7 +53,7 @@ public class News implements Serializable {
 	private String author;
 	private String creationdate;
 	private String content;
-	private String id;
+	private Integer id;
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub

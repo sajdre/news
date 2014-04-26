@@ -20,7 +20,7 @@ public class EditWriteNewsCommand extends Command {
 		news.setCreationdate(request.getParameter("creationdate"));
 		news.setTitle(request.getParameter("title"));
 		news.setContent(request.getParameter("content"));
-		news.setId(request.getParameter("id"));
+        news.setId(Integer.parseInt(request.getParameter("id")));
 		ns.updateNews(news);
 		try {
 			response.sendRedirect("/admin/");

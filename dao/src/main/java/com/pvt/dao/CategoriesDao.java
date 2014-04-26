@@ -1,6 +1,12 @@
 package com.pvt.dao;
 
 import com.pvt.Category;
+import com.pvt.News;
+import com.pvt.utils.Hbutils;
+import org.hibernate.Query;
+import org.hibernate.Session;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +19,27 @@ public class CategoriesDao extends CommonDao<Category> {
 
     public CategoriesDao() {
         super(Category.class);
+    }
+    public List<News> getNewsByCategory(Category cat){
+        List<News> news = null;
+        Session session = Hbutils.getSessionFactory().getCurrentSession();
+        try{
+        session.beginTransaction();
+        Query query = session.createQuery("FROM News WHERE category =" + cat.getId());
+        news = (List<News>) query.list();
+        session.getTransaction().commit();
+        }catch(RuntimeException e){
+            log.info("Couldn`t get news", e);
+            try{
+                t.rollback();
+            }catch (RuntimeException rbe){
+                log.info("Couldn`t rollback transaction", rbe);
+            }
+        }finally {
+            if (session != null && session.isOpen()) {
+            session.close();
+            }
+        }
+        return news;
     }
 }

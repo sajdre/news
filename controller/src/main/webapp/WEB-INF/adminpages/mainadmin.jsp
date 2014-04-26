@@ -2,6 +2,8 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+<jsp:useBean id="categories" scope="request" type="java.util.List"/>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,7 +19,7 @@
 	<a href="?operation=editcategory&id=<c:out value="${category.id}"></c:out> ">Edit</a>
 	<a href="?operation=deletecategory&id=<c:out value="${category.id}"></c:out> ">Delete</a>
 <ul>
-<c:forEach var="item" items="${category.newsByCategory}">
+<c:forEach var="item" items="${category.news}">
 	<li><a href="?operation=editnews&id=<c:out value="${item.id}"></c:out> "><c:out value="${item.title}"></c:out></a>
 	<a href="?operation=deletenews&id=<c:out value="${item.id}"></c:out> ">Delete</a></li>
 	
