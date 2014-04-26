@@ -10,7 +10,6 @@ public class Category implements Serializable {
     private List<News> news;
 	private String category;
 	private Integer id;
-
 	public Integer getId() {
 		return id;
 	}
