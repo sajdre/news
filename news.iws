@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\Category.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\News.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\Users.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\hibernate.cfg.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.iml" afterPath="$PROJECT_DIR$/controller/controller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/dao.iml" afterPath="$PROJECT_DIR$/dao/dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ipr" afterPath="$PROJECT_DIR$/news.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/pom.xml" afterPath="$PROJECT_DIR$/model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +15,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398443103856" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398515856400" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398510025590" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398518144918" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398445936648" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -336,7 +323,7 @@
       <file leaf-file-name="Hbutils.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/utils/Hbutils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="63" selection-start="569" selection-end="582" vertical-scroll-proportion="0.34453782">
+            <state line="18" column="44" selection-start="628" selection-end="628" vertical-scroll-proportion="0.4159664">
               <folding />
             </state>
           </provider>
@@ -981,7 +968,11 @@
       <created>1398510047342</created>
       <updated>1398510047342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2">
+      <created>1398518149085</created>
+      <updated>1398518149085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1073,7 +1064,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="total hibernate xml mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1088,6 +1079,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="fix base, nullpointer on beanService," />
     <MESSAGE value="total hibernate xml mapping" />
+    <MESSAGE value="2" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1235,7 +1227,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/utils/Hbutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="63" selection-start="569" selection-end="582" vertical-scroll-proportion="0.34453782">
+        <state line="18" column="44" selection-start="628" selection-end="628" vertical-scroll-proportion="0.4159664">
           <folding />
         </state>
       </provider>
