@@ -4,6 +4,12 @@
   <groupId>com.pvt</groupId>
   <artifactId>news-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <repositories>
+        <repository>
+            <id>java.net</id>
+            <url>http://download.java.net/maven/2/</url>
+        </repository>
+    </repositories>
     <modules>
         <module>model</module>
         <module>service</module>
@@ -60,9 +66,11 @@
                 <artifactId>hibernate-core</artifactId>
                 <version>4.3.5.Final</version>
             </dependency>
-
-
-
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>ejb3-persistence</artifactId>
+                <version>1.0.1.GA</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <packaging>pom</packaging>

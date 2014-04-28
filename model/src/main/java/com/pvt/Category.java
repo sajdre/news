@@ -17,7 +17,6 @@ public class Category implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
 	private Integer id;
-
 	public Integer getId() {
 		return id;
 	}
