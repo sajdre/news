@@ -1,14 +1,15 @@
 package com.pvt.utils;
 
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
-import org.hibernate.service.ServiceRegistryBuilder;
 
 import java.util.Locale;
 
-public class Hbutils {
-
+public class HibernateUtil {
+        private HibernateUtil(){
+        }
         private static SessionFactory sessionFactory = null;
         private static ServiceRegistry serviceRegistry;
 
@@ -17,7 +18,8 @@ public class Hbutils {
                 Locale.setDefault(Locale.ENGLISH);
                 Configuration configuration = new Configuration();
                 configuration.configure();
-                serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
+                serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
+                        configuration.getProperties()).build();
                 sessionFactory = configuration.buildSessionFactory(serviceRegistry);
             }
             return sessionFactory;

@@ -1,5 +1,6 @@
 package admin;
 
+import com.pvt.CategoryService;
 import com.pvt.News;
 import com.pvt.NewsService;
 
@@ -13,10 +14,11 @@ public class EditWriteNewsCommand extends Command {
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
         NewsService ns = new NewsService();
+        CategoryService cs = new CategoryService();
 		News news = new News();
 		news.setAnnotation(request.getParameter("annotation"));
 		news.setAuthor(request.getParameter("author"));
-		news.setCategory(Integer.parseInt(request.getParameter("category")));
+		news.setCategory_id(Integer.parseInt(request.getParameter("category")));
 		news.setCreationdate(request.getParameter("creationdate"));
 		news.setTitle(request.getParameter("title"));
 		news.setContent(request.getParameter("content"));

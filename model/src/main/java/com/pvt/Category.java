@@ -1,14 +1,21 @@
 package com.pvt;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
-
+@Entity
+@Table(name = "CATEGORIES")
+@SequenceGenerator(name = "PK", sequenceName = "CAT_SEQ")
 public class Category implements Serializable {
 
 	private static final long serialVersionUID = 1L;
+    @OneToMany(mappedBy = "category")
     private List<News> news;
+    @Column
 	private String category;
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
 	private Integer id;
 
 	public Integer getId() {

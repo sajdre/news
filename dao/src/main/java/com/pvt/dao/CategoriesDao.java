@@ -2,7 +2,7 @@ package com.pvt.dao;
 
 import com.pvt.Category;
 import com.pvt.News;
-import com.pvt.utils.Hbutils;
+import com.pvt.utils.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
@@ -22,7 +22,7 @@ public class CategoriesDao extends CommonDao<Category> {
     }
     public List<News> getNewsByCategory(Category cat){
         List<News> news = null;
-        Session session = Hbutils.getSessionFactory().getCurrentSession();
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         try{
         session.beginTransaction();
         Query query = session.createQuery("FROM News WHERE category =" + cat.getId());

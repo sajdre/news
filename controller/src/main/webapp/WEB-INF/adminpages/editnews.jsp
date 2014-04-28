@@ -16,7 +16,7 @@ author:<input name="author" value="<jsp:getProperty property="author" name="news
 creationdate:<input name="creationdate" value="<jsp:getProperty property="creationdate" name="news"/>"><br>
 title:<input name="title" value="<jsp:getProperty property="title" name="news"/>"><br>
 annotation:<input name="annotation" value="<jsp:getProperty property="annotation" name="news"/>"><br>
-category:<input name="category" value="<jsp:getProperty property="category" name="news"/>"><br>
+category:<input name="category" value="<jsp:getProperty property="category_id" name="news"/>"><br>
 content:<br>
 <textarea rows="15" cols="80" name="content"><jsp:getProperty property="content" name="news"/>"</textarea>
 <br>

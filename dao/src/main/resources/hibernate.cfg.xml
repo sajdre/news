@@ -12,9 +12,9 @@
         <property name="show_sql">true</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.cache.use_structured_entries">true</property>
-        <mapping resource="Category.hbm.xml"/>
-        <mapping resource="Users.hbm.xml"/>
-        <mapping resource="News.hbm.xml"/>
+        <mapping class="com.pvt.Category"/>
+        <mapping class="com.pvt.Users"/>
+        <mapping class="com.pvt.News"/>
 
     </session-factory>
 

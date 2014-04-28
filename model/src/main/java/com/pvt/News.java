@@ -1,13 +1,37 @@
 package com.pvt;
+
+import javax.persistence.*;
 import java.io.Serializable;
+
+@Entity
+@Table(name = "NEWS")
+@SequenceGenerator(name = "PK", sequenceName = "CAT_SEQ")
 public class News implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	public Integer getCategory() {
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
+    private Integer id;
+    @ManyToOne
+    @JoinColumn(name = "CATEGORY_ID", updatable = false, insertable = false)
+    private Category category;
+    @Column(name = "title")
+    private String title;
+    @Column(name = "annotation")
+    private String annotation;
+    @Column(name = "author")
+    private String author;
+    @Column(name = "creationdate")
+    private String creationdate;
+    @Column(name = "content")
+    private String content;
+    @Column(name = "category_id")
+    private Integer category_id;
+	public Category getCategory() {
 		return category;
 	}
-	public void setCategory(Integer category) {
+	public void setCategory(Category category) {
 		this.category = category;
 	}
 	public String getTitle() {
@@ -46,14 +70,8 @@ public class News implements Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
-	private Integer category;
-	private String title;
-	private String annotation;
-	private String author;
-	private String creationdate;
-	private String content;
-	private Integer id;
+
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
@@ -79,5 +97,13 @@ public class News implements Serializable {
 			// TODO Auto-generated method stub
 			return id.hashCode();
 		}
-	
+
+
+    public Integer getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(Integer category_id) {
+        this.category_id = category_id;
+    }
 }

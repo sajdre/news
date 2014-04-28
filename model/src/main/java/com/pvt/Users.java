@@ -1,16 +1,25 @@
 package com.pvt;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
+@Entity
+@Table(name = "USERS")
+@SequenceGenerator(name = "PK", sequenceName = "CAT_SEQ")
 public class Users implements Serializable {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
 	private String id;
+    @Column(name = "password")
 	private String password;
+    @Column(name = "name")
 	private String name;
+    @Column(name = "secondname")
 	private String secondname;
 	
 	public String getName() {

@@ -1,6 +1,6 @@
 package com.pvt.dao;
 
-import com.pvt.utils.Hbutils;
+import com.pvt.utils.HibernateUtil;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -20,7 +20,7 @@ public class CommonDao<T> implements DaoI<T> {
     }
 
     public void save(T entity) {
-        session = Hbutils.getSessionFactory().getCurrentSession();
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
@@ -42,7 +42,7 @@ public class CommonDao<T> implements DaoI<T> {
     }
 
     public void delete(T entity) {
-        session = Hbutils.getSessionFactory().getCurrentSession();
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
@@ -64,7 +64,7 @@ public class CommonDao<T> implements DaoI<T> {
     }
 
     public void update(T entity) {
-        session = Hbutils.getSessionFactory().getCurrentSession();
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
         if (entity == null) {
             throw new NullPointerException();
         }
@@ -74,6 +74,7 @@ public class CommonDao<T> implements DaoI<T> {
             t.commit();
         }catch(RuntimeException e){
             try{
+                log.info("SQLGrammarException", e);
                 t.rollback();
             }catch (RuntimeException rbe){
                 log.info("Couldn`t rollback transaction", rbe);
@@ -87,7 +88,7 @@ public class CommonDao<T> implements DaoI<T> {
 
 
     public T getById(Serializable id) {
-        session = Hbutils.getSessionFactory().getCurrentSession();
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
         T entity = null;
         try{
         t = session.beginTransaction();
@@ -108,7 +109,7 @@ public class CommonDao<T> implements DaoI<T> {
 
     public List<T> list() throws Exception {
         List<T> list = null;
-        session = Hbutils.getSessionFactory().getCurrentSession();
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
         try {
             t = session.beginTransaction();
             list = session.createCriteria(clazz).list();
@@ -116,6 +117,7 @@ public class CommonDao<T> implements DaoI<T> {
 
         } catch(RuntimeException e){
             try{
+                log.info("SQLGrammarException", e);
                 t.rollback();
             }catch (RuntimeException rbe){
                 log.info("Couldn`t rollback transaction", rbe);
