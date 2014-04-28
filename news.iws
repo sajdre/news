@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\Category.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\News.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\Users.hbm.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ids" afterPath="$PROJECT_DIR$/news.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteNewsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoriesDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoriesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommonDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/pvt/News.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/pvt/News.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/pvt/Users.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/pvt/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.iml" afterPath="$PROJECT_DIR$/controller/controller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/dao.iml" afterPath="$PROJECT_DIR$/dao/dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ipr" afterPath="$PROJECT_DIR$/news.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/pom.xml" afterPath="$PROJECT_DIR$/model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
-      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\utils\Hbutils.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/utils/HibernateUtil.java" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +15,7 @@
     <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398718523343" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398693053521" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398715284055" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398723169671" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398445936648" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -299,7 +276,7 @@
       <file leaf-file-name="News.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/News.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.14617941">
+            <state line="15" column="58" selection-start="380" selection-end="380" vertical-scroll-proportion="0.35416666">
               <folding />
             </state>
           </provider>
@@ -365,7 +342,7 @@
       <file leaf-file-name="addnews.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -374,7 +351,7 @@
       <file leaf-file-name="editnews.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="77" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-6.730769">
+            <state line="18" column="77" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -533,6 +510,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -641,8 +620,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,17 +634,17 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="Database.TableEditor.Splitter" value="1.0" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig" serverName="tomcat" serverId="8c2768ff-c053-4a37-82b8-c76035d37dcd">
     <servers>
@@ -743,20 +720,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -786,17 +760,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -833,16 +810,16 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="-Duser.country=en -Duser.language=en" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="-Duser.country=en -Duser.language=en" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52">
@@ -948,7 +925,11 @@
       <created>1398198246675</created>
       <updated>1398198246675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="annotation">
+      <created>1398722784047</created>
+      <updated>1398722784047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -973,31 +954,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597622" sideWeight="0.47878787" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.47878787" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.2197615" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16060606" sideWeight="0.6149915" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16060606" sideWeight="0.6746167" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06303237" sideWeight="0.56439394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4616695" sideWeight="0.53712124" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32027256" sideWeight="0.46666667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318182" sideWeight="0.21731749" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2719697" sideWeight="0.085178874" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2090909" sideWeight="0.6149915" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.6149915" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3850085" sideWeight="0.45757577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3850085" sideWeight="0.45757577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32027256" sideWeight="0.46666667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1041,7 +1022,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix base, nullpointer on beanService," />
+    <option name="LAST_COMMIT_MESSAGE" value="annotation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1055,6 +1036,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="fix base, nullpointer on beanService," />
+    <MESSAGE value="annotation" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1104,9 +1086,7 @@
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="16" selection-start="9146" selection-end="9146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="282" column="16" selection-start="9146" selection-end="9146" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoriesDao.java">
@@ -1135,9 +1115,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteCategoryCommand.java">
@@ -1156,7 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="77" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-6.730769">
+        <state line="18" column="77" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1215,7 +1193,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.14617941">
+        <state line="15" column="58" selection-start="380" selection-end="380" vertical-scroll-proportion="0.35416666">
           <folding />
         </state>
       </provider>
