@@ -1,6 +1,6 @@
 package com.pvt;
 
-import com.pvt.dao.UsersDao;
+import com.pvt.daoImplementation.UsersDao;
 
 import java.io.Serializable;
 

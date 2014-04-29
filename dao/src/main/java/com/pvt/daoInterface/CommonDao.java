@@ -1,6 +1,6 @@
-package com.pvt.dao;
+package com.pvt.daoInterface;
 
-import com.pvt.utils.HibernateUtil;
+import com.pvt.hibernateUtil.HibernateUtil;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 import java.io.Serializable;
 import java.util.List;
 
-public class CommonDao<T> implements DaoI<T> {
+public abstract class CommonDao<T> implements DaoI<T> {
 
     Logger log = Logger.getLogger(CommonDao.class);
     Session session;

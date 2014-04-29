@@ -1,4 +1,4 @@
-package com.pvt.utils;
+package com.pvt.hibernateUtil;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

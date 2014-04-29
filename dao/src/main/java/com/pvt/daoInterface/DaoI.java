@@ -1,4 +1,4 @@
-package com.pvt.dao;
+package com.pvt.daoInterface;
 
 import java.io.Serializable;
 

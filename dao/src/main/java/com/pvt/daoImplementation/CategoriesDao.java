@@ -1,8 +1,9 @@
-package com.pvt.dao;
+package com.pvt.daoImplementation;
 
 import com.pvt.Category;
 import com.pvt.News;
-import com.pvt.utils.HibernateUtil;
+import com.pvt.daoInterface.CommonDao;
+import com.pvt.hibernateUtil.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Session;
 

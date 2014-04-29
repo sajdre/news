@@ -1,6 +1,6 @@
 package com.pvt;
 
-import com.pvt.dao.NewsDao;
+import com.pvt.daoImplementation.NewsDao;
 
 import java.io.Serializable;
 import java.util.List;

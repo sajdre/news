@@ -1,6 +1,7 @@
-package com.pvt.dao;
+package com.pvt.daoImplementation;
 
 import com.pvt.Users;
+import com.pvt.daoInterface.CommonDao;
 
 /**
  * Created with IntelliJ IDEA.
