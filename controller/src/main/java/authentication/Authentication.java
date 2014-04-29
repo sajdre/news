@@ -1,6 +1,6 @@
 package authentication;
 
-import com.pvt.Users;
+import com.pvt.daoEntities.Users;
 import com.pvt.*;
 
 import javax.servlet.*;

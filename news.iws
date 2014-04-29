@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoInterface\DaoI.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\model.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\classes\com\pvt\Category.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\classes\com\pvt\News.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\classes\com\pvt\Users.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\model\target\model-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/AddNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/AddNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteCategoryCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/AddWriteNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoriesDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoriesDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/DeleteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/DeleteNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/EditCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/EditCategoryCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/EditNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/EditNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteCategoryCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/NewsDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/NewsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowNewsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnDateCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnDateCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnlyThisCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnlyThisCategoryCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnlyTodayCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/ShowOnlyTodayCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UsersDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UsersDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.iml" afterPath="$PROJECT_DIR$/controller/controller.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/dao.iml" afterPath="$PROJECT_DIR$/dao/dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ipr" afterPath="$PROJECT_DIR$/news.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoInterface\CommonDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\hibernateUtil\HibernateUtil.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\model\src\main\java\com\pvt\Category.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Category.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\model\src\main\java\com\pvt\News.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/News.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\model\src\main\java\com\pvt\Users.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Users.java" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,10 +58,10 @@
     <file path="/Command.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397507406073" ignored="false" />
     <file path="/AddNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397507509413" ignored="false" />
     <file path="/dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397590762921" ignored="false" />
-    <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398774533859" ignored="false" />
+    <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398783661236" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398693053521" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398775199653" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398783780375" ignored="false" />
     <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397674214884" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398445936648" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
@@ -26,7 +72,7 @@
     <file path="/Newsdao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397766184640" ignored="false" />
     <file path="/CommonDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398774353955" ignored="false" />
     <file path="/DaoI.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397833843796" ignored="false" />
-    <file path="/CategoriesDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398718453895" ignored="false" />
+    <file path="/CategoriesDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398783406184" ignored="false" />
     <file path="/NewsDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397835422326" ignored="false" />
     <file path="/UsersDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397835344217" ignored="false" />
     <file path="/AdminController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397836899952" ignored="false" />
@@ -62,7 +108,7 @@
     <file path="/content.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398496384887" ignored="false" />
     <file path="/CategoriesDaoImpl.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398499925556" ignored="false" />
     <file path="/News.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398721730018" ignored="false" />
-    <file path="/HibernateUtil.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398709667713" ignored="false" />
+    <file path="/HibernateUtil.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398787143868" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +133,150 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" line="43" class="authentication.Authentication" package="authentication">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="3" class="NewsService.java" package="">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="30" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" line="21" class="admin.ShowCommand" package="admin">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="46" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/DeleteNewsCommand.java" line="17" class="admin.DeleteNewsCommand" package="admin">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" line="16" class="newsline.ShowContentCommand" package="newsline">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" line="19" class="admin.EditWriteNewsCommand" package="admin">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java" line="32" class="com.pvt.daoConfiguration.HibernateUtil" package="com.pvt.daoConfiguration">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java" line="26" class="com.pvt.daoConfiguration.HibernateUtil" package="com.pvt.daoConfiguration">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -122,139 +311,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/authentication/Authentication.java" line="44" class="authentication.Authentication" package="authentication">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="4" class="NewsService.java" package="">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CommonDao.java" line="28" class="com.pvt.dao.CommonDao" package="com.pvt.dao">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" line="22" class="admin.ShowCommand" package="admin">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CommonDao.java" line="44" class="com.pvt.dao.CommonDao" package="com.pvt.dao">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/DeleteNewsCommand.java" line="18" class="admin.DeleteNewsCommand" package="admin">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" line="17" class="newsline.ShowContentCommand" package="newsline">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" line="20" class="admin.EditWriteNewsCommand" package="admin">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </line_breakpoints>
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="17" class="com.pvt.NewsService" package="com.pvt">
-        <option name="WATCH_ENTRY" value="true" />
-        <option name="WATCH_EXIT" value="true" />
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </method_breakpoints>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -264,91 +321,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="49" selection-start="908" selection-end="908" vertical-scroll-proportion="0.45945945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1844" column="8" selection-start="66429" selection-end="66429" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewsCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/AddNewsCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="11" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteCategoryCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/DeleteCategoryCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="61" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootstrapServiceRegistryBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/boot/registry/BootstrapServiceRegistryBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="243" column="38" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CommonDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CommonDao.java">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+            <state line="92" column="0" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoriesDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoriesDao.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+            <state line="45" column="62" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-21.96">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/DaoI.java">
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="3" column="37" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="News.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/News.java">
+      <file leaf-file-name="log4j.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/log4j.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="59" selection-start="541" selection-end="541" vertical-scroll-proportion="2.0860214">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditWriteNewsCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -374,7 +431,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1" />
+        <entry key="$PROJECT_DIR$" value="master6" />
       </map>
     </option>
   </component>
@@ -398,13 +455,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/model/pom.xml" />
-        <option value="$PROJECT_DIR$/dao/pom.xml" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/pvt/Users.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/admin/ShowCommand.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoriesDao.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java" />
         <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES" />
@@ -414,6 +464,13 @@
         <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommonDao.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CategoriesDao.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CommonDao.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoriesDao.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UsersDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" />
+        <option value="$PROJECT_DIR$/dao/pom.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java" />
       </list>
     </option>
   </component>
@@ -449,19 +506,29 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="news" />
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dao" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dao" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -523,7 +590,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -552,7 +619,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +633,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -596,21 +689,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -627,16 +706,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pvt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daoConfiguration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/service/src/main/java/com/pvt" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dao/src/main/java/com/pvt" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
@@ -693,8 +776,9 @@
       <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.pvt.daoImplementation" />
+      <recent name="com.pvt.daoEntities" />
       <recent name="com.pvt" />
+      <recent name="com.pvt.daoImplementation" />
       <recent name="com.pvt.news" />
     </key>
   </component>
@@ -954,7 +1038,7 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -976,15 +1060,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7035775" sideWeight="0.47878787" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.47878787" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.2197615" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16060606" sideWeight="0.29642248" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16060606" sideWeight="0.7342419" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06303237" sideWeight="0.56439394" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48381603" sideWeight="0.56439394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4616695" sideWeight="0.53712124" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -992,14 +1075,15 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318182" sideWeight="0.21731749" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2719697" sideWeight="0.085178874" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2090909" sideWeight="0.6149915" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21136364" sideWeight="0.516184" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.29642248" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3850085" sideWeight="0.45757577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.516184" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36967632" sideWeight="0.45757577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1106,118 +1190,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/Users.java">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteCategoryCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="77" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.NEWS">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/EditWriteNewsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/pvt/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/DaoI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="48" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoriesDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoInterface/CommonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+        <state line="39" column="14" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="541" selection-end="541" vertical-scroll-proportion="2.0860214">
+        <state line="45" column="36" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="62" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-21.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/boot/registry/StandardServiceRegistryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="11" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.3301887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/boot/registry/BootstrapServiceRegistryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="38" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/AddNewsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/DeleteCategoryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="61" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1844" column="8" selection-start="66429" selection-end="66429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoConfiguration/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="908" selection-end="908" vertical-scroll-proportion="0.45945945">
           <folding />
         </state>
       </provider>

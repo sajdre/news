@@ -1,6 +1,6 @@
 package admin;
 
-import com.pvt.Category;
+import com.pvt.daoEntities.Category;
 import com.pvt.CategoryService;
 
 import javax.servlet.http.HttpServletRequest;

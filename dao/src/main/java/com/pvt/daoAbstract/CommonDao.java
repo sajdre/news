@@ -1,6 +1,6 @@
-package com.pvt.daoInterface;
+package com.pvt.daoAbstract;
 
-import com.pvt.hibernateUtil.HibernateUtil;
+import com.pvt.daoConfiguration.HibernateUtil;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -8,16 +8,18 @@ import org.hibernate.Transaction;
 import java.io.Serializable;
 import java.util.List;
 
-public abstract class CommonDao<T> implements DaoI<T> {
+public abstract class CommonDao<T> {
+
+    public CommonDao(Class<T> clazz) {
+        this.clazz = clazz;
+    }
 
     Logger log = Logger.getLogger(CommonDao.class);
     Session session;
     Transaction t;
     protected Class<T> clazz;
 
-    public CommonDao(Class<T> clazz) {
-        this.clazz = clazz;
-    }
+
 
     public void save(T entity) {
         session = HibernateUtil.getSessionFactory().getCurrentSession();

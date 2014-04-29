@@ -1,7 +1,7 @@
 package admin;
 
 import com.pvt.CategoryService;
-import com.pvt.News;
+import com.pvt.daoEntities.News;
 import com.pvt.NewsService;
 
 import javax.servlet.http.HttpServletRequest;

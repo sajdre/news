@@ -1,8 +1,8 @@
 package newsline;
 
-import com.pvt.Category;
+import com.pvt.daoEntities.Category;
 import com.pvt.CategoryService;
-import com.pvt.News;
+import com.pvt.daoEntities.News;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

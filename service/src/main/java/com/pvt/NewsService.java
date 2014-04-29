@@ -1,5 +1,6 @@
 package com.pvt;
 
+import com.pvt.daoEntities.News;
 import com.pvt.daoImplementation.NewsDao;
 
 import java.io.Serializable;

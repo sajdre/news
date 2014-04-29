@@ -1,7 +1,7 @@
 package com.pvt.daoImplementation;
 
-import com.pvt.Users;
-import com.pvt.daoInterface.CommonDao;
+import com.pvt.daoEntities.Users;
+import com.pvt.daoAbstract.CommonDao;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,7 +11,6 @@ import com.pvt.daoInterface.CommonDao;
  * To change this template use File | Settings | File Templates.
  */
 public class UsersDao extends CommonDao<Users> {
-
     public UsersDao() {
         super(Users.class);
     }

@@ -1,4 +1,4 @@
-package com.pvt;
+package com.pvt.daoEntities;
 
 import javax.persistence.*;
 import java.io.Serializable;

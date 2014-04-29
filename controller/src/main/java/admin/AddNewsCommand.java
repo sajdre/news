@@ -1,6 +1,6 @@
 package admin;
 
-import com.pvt.Users;
+import com.pvt.daoEntities.Users;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

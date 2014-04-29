@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
@@ -12,9 +12,9 @@
         <property name="show_sql">true</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.cache.use_structured_entries">true</property>
-        <mapping class="com.pvt.Category"/>
-        <mapping class="com.pvt.Users"/>
-        <mapping class="com.pvt.News"/>
+        <mapping class="com.pvt.daoEntities.Category"/>
+        <mapping class="com.pvt.daoEntities.Users"/>
+        <mapping class="com.pvt.daoEntities.News"/>
 
     </session-factory>
 

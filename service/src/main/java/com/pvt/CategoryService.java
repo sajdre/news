@@ -1,5 +1,7 @@
 package com.pvt;
 
+import com.pvt.daoEntities.Category;
+import com.pvt.daoEntities.News;
 import com.pvt.daoImplementation.CategoriesDao;
 
 import java.io.Serializable;

@@ -1,7 +1,7 @@
 package com.pvt.daoImplementation;
 
-import com.pvt.News;
-import com.pvt.daoInterface.CommonDao;
+import com.pvt.daoEntities.News;
+import com.pvt.daoAbstract.CommonDao;
 
 /**
  * Created with IntelliJ IDEA.
