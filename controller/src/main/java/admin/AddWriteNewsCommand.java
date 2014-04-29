@@ -28,7 +28,7 @@ public class AddWriteNewsCommand extends Command{
 		dateOut = dateFormatter.format(today);
 		news.setAnnotation(request.getParameter("annotation"));
 		news.setAuthor(request.getParameter("author"));
-		news.setCategory(cs.getCategoryById(Integer.parseInt(request.getParameter("category"))));
+		news.setCategory_id(Integer.parseInt(request.getParameter("category")));
 		news.setCreationdate(dateOut);
 		news.setTitle(request.getParameter("title"));
 		news.setContent(request.getParameter("content"));

@@ -47,10 +47,7 @@
             <groupId>com.oracle</groupId>
             <artifactId>orai18n</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>ejb3-persistence</artifactId>
-        </dependency>
+
     </dependencies>
     <build>
         <plugins>

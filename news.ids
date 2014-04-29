@@ -17,19 +17,18 @@
     <schema name="SAJ" catalog="" />
     <table name="CATEGORIES" schema="SAJ" catalog="" type="TABLE">
       <column name="ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
-      <column name="CATEGORY" sqlType="VARCHAR2" length="40" precision="0" nullable="true" jdbcType="12" />
+      <column name="CATEGORY" sqlType="VARCHAR2" length="40" precision="0" nullable="true" jdbcType="12" version="true" />
       <primary-key name="PRIMARY" columns="ID" />
-      <exported-key name="SYS_C008018" table="NEWS" schema="SAJ" catalog="" columns="CATEGORY" />
+      <exported-key name="SYS_C008018" table="NEWS" schema="SAJ" catalog="" columns="CATEGORY_ID" />
     </table>
-    <table name="CAT_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
     <table name="NEWS" schema="SAJ" catalog="" type="TABLE">
-      <column name="TITLE" sqlType="VARCHAR2" length="150" precision="0" nullable="true" jdbcType="12" />
-      <column name="AUTHOR" sqlType="VARCHAR2" length="30" precision="0" nullable="false" jdbcType="12" />
-      <column name="CREATIONDATE" sqlType="VARCHAR2" length="15" precision="0" nullable="true" jdbcType="12" />
-      <column name="ANNOTATION" sqlType="VARCHAR2" length="1500" precision="0" nullable="true" jdbcType="12" />
-      <column name="CATEGORY_ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" />
-      <column name="CONTENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="true" jdbcType="12" />
-      <column name="ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" />
+      <column name="TITLE" sqlType="VARCHAR2" length="150" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="AUTHOR" sqlType="VARCHAR2" length="30" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="CREATIONDATE" sqlType="VARCHAR2" length="15" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="ANNOTATION" sqlType="VARCHAR2" length="1500" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="CATEGORY_ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
+      <column name="CONTENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
       <primary-key name="SYS_C008031" columns="ID" />
       <foreign-key name="SYS_C008018" columns="CATEGORY_ID" ref-table="CATEGORIES" ref-schema="SAJ" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
     </table>

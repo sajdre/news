@@ -6,7 +6,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "CATEGORIES")
-@SequenceGenerator(name = "PK", sequenceName = "CAT_SEQ")
+@SequenceGenerator(name = "PK", sequenceName = "CATEGORIES_SEQ")
 public class Category implements Serializable {
 
 	private static final long serialVersionUID = 1L;

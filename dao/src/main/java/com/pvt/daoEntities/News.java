@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "NEWS")
-@SequenceGenerator(name = "PK", sequenceName = "CAT_SEQ")
+@SequenceGenerator(name = "PK", sequenceName = "NEWS_SEQ")
 public class News implements Serializable {
 
 	private static final long serialVersionUID = 1L;

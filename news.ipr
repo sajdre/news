@@ -43,7 +43,6 @@
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.6" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.6" />
             <element id="library" level="project" name="Maven: com.oracle:orai18n:11.2.0.3" />
-            <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.1.GA" />
             <element id="library" level="project" name="Maven: com.pvt:view:1.0-SNAPSHOT" />
             <element id="library" level="project" name="Maven: com.pvt:model:1.0-SNAPSHOT" />
             <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.0" />
@@ -72,10 +71,10 @@
       <directory url="file://$PROJECT_DIR$/view/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/model/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/model/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dao/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dao/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dao/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dao/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/controller/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/controller/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
     </excludeFromCompile>
@@ -126,7 +125,7 @@
   <component name="CopyrightManager" default="">
     <module2copyright />
   </component>
-  <component name="DataSourceManagerImpl" compressed="false" hash="4035172910" />
+  <component name="DataSourceManagerImpl" compressed="false" hash="188482131" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -452,17 +451,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.hibernate:ejb3-persistence:1.0.1.GA">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/ejb3-persistence/1.0.1.GA/ejb3-persistence-1.0.1.GA.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/ejb3-persistence/1.0.1.GA/ejb3-persistence-1.0.1.GA-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/ejb3-persistence/1.0.1.GA/ejb3-persistence-1.0.1.GA-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.hibernate:hibernate-core:4.3.5.Final">
