@@ -1,24 +1,24 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<jsp:useBean id="news" class="com.pvt.daoEntities.News" scope="request"></jsp:useBean>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Edit news</title>
 </head>
 <body>
 <form action="/admin/" method="post">
 <p>
 <input type="hidden" name="operation" value="editwritenews">
-<input type="hidden" name="id" value="<jsp:getProperty property="id" name="news"/>">
-author:<input name="author" value="<jsp:getProperty property="author" name="news"/>"><br>
-creationdate:<input name="creationdate" value="<jsp:getProperty property="creationdate" name="news"/>"><br>
-title:<input name="title" value="<jsp:getProperty property="title" name="news"/>"><br>
-annotation:<input name="annotation" value="<jsp:getProperty property="annotation" name="news"/>"><br>
-category:<input name="category" value="<jsp:getProperty property="category_id" name="news"/>"><br>
+<input type="hidden" name="id" value="<c:out value="${news.id}"></c:out>">
+author:<input name="author" value="<c:out value="${news.author}"></c:out>"><br>
+creationdate:<input name="creationdate" value="<c:out value="${news.creationdate}"></c:out>"><br>
+title:<input name="title" value="<c:out value="${news.title}"></c:out>"><br>
+annotation:<input name="annotation" value="<c:out value="${news.annotation}"></c:out>"><br>
+category:<input name="category" value="<c:out value="${news.category_id}"></c:out>"><br>
 content:<br>
-<textarea rows="15" cols="80" name="content"><jsp:getProperty property="content" name="news"/>"</textarea>
+<textarea rows="15" cols="80" name="content"><c:out value="${news.content}"></c:out></textarea>
 <br>
 <input type="submit">
 </p>

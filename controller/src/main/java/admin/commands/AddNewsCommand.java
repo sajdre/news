@@ -1,7 +1,5 @@
-package newsline;
+package admin.commands;
 
-import com.pvt.NewsService;
-import com.pvt.daoEntities.News;
 import com.pvt.daoEntities.User;
 
 import javax.servlet.RequestDispatcher;
@@ -11,22 +9,17 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class ShowContentCommand extends Command{
+public class AddNewsCommand extends Command {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
-        //if there is comment parameter, save comment
 
-        HttpSession session = request.getSession();
-        User user = (User)session.getAttribute("user");
-        if(user != null){
-            request.setAttribute("user", user);
-        }
-        NewsService ns = new NewsService();
-		News news = ns.getNewsById(Integer.parseInt(request.getParameter("id")));
-		request.setAttribute("news", news);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("../WEB-INF/newslinepages/content.jsp");
+		HttpSession session = request.getSession();
+		User user = (User) session.getAttribute("user");
+		String username = user.getName() + "" + user.getSecondname();
+		request.setAttribute("username", username);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("../WEB-INF/adminpages/addnews.jsp");
 		try {
 			dispatcher.forward(request, response);
 		} catch (ServletException e) {

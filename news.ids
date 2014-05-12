@@ -15,29 +15,59 @@
       </library>
     </libraries>
     <schema name="SAJ" catalog="" />
-    <table name="CATEGORIES" schema="SAJ" catalog="" type="TABLE">
-      <column name="ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
-      <column name="CATEGORY" sqlType="VARCHAR2" length="40" precision="0" nullable="true" jdbcType="12" version="true" />
-      <primary-key name="PRIMARY" columns="ID" />
-      <exported-key name="SYS_C008018" table="NEWS" schema="SAJ" catalog="" columns="CATEGORY_ID" />
+    <table name="T_CATEGORIES" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_CATEGORY_ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
+      <column name="F_CATEGORY" sqlType="VARCHAR2" length="40" precision="0" nullable="true" jdbcType="12" version="true" />
+      <primary-key name="PRIMARY" columns="F_CATEGORY_ID" />
+      <exported-key name="SYS_C008018" table="T_NEWS" schema="SAJ" catalog="" columns="F_CATEGORY_ID" />
     </table>
-    <table name="NEWS" schema="SAJ" catalog="" type="TABLE">
-      <column name="TITLE" sqlType="VARCHAR2" length="150" precision="0" nullable="true" jdbcType="12" version="true" />
-      <column name="AUTHOR" sqlType="VARCHAR2" length="30" precision="0" nullable="false" jdbcType="12" version="true" />
-      <column name="CREATIONDATE" sqlType="VARCHAR2" length="15" precision="0" nullable="true" jdbcType="12" version="true" />
-      <column name="ANNOTATION" sqlType="VARCHAR2" length="1500" precision="0" nullable="true" jdbcType="12" version="true" />
-      <column name="CATEGORY_ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
-      <column name="CONTENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="true" jdbcType="12" version="true" />
-      <column name="ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
-      <primary-key name="SYS_C008031" columns="ID" />
-      <foreign-key name="SYS_C008018" columns="CATEGORY_ID" ref-table="CATEGORIES" ref-schema="SAJ" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
+    <table name="T_CATEGORIES_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
+    <table name="T_COMMENTS" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
+      <column name="F_NEWS_ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
+      <column name="F_USER_ID" sqlType="VARCHAR2" length="40" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_DATE" sqlType="VARCHAR2" length="40" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_NUMBER" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
+      <column name="F_COMMENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="false" jdbcType="12" version="true" />
+      <primary-key name="SYS_C008233" columns="F_ID" />
+      <foreign-key name="SYS_C008240" columns="F_NEWS_ID" ref-table="T_NEWS" ref-schema="SAJ" ref-catalog="" ref-columns="F_NEWS_ID" update-rule="0" delete-rule="1" deferrability="2" />
+      <foreign-key name="SYS_C008241" columns="F_USER_ID" ref-table="T_USERS" ref-schema="SAJ" ref-catalog="" ref-columns="F_USER_ID" update-rule="0" delete-rule="1" deferrability="2" />
     </table>
-    <table name="USERS" schema="SAJ" catalog="" type="TABLE">
-      <column name="ID" sqlType="VARCHAR2" length="40" precision="0" nullable="false" jdbcType="12" />
-      <column name="PASSWORD" sqlType="VARCHAR2" length="10" precision="0" nullable="false" jdbcType="12" />
-      <column name="NAME" sqlType="VARCHAR2" length="50" precision="0" nullable="false" jdbcType="12" />
-      <column name="SECONDNAME" sqlType="VARCHAR2" length="50" precision="0" nullable="false" jdbcType="12" />
-      <primary-key name="PRIMARY_2" columns="ID" />
+    <table name="T_NEWS" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_TITLE" sqlType="VARCHAR2" length="150" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="F_AUTHOR" sqlType="VARCHAR2" length="30" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_CREATIONDATE" sqlType="VARCHAR2" length="15" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="F_ANNOTATION" sqlType="VARCHAR2" length="1500" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="F_CATEGORY_ID" sqlType="NUMBER" length="10" precision="0" nullable="false" jdbcType="3" version="true" />
+      <column name="F_CONTENT" sqlType="VARCHAR2" length="3000" precision="0" nullable="true" jdbcType="12" version="true" />
+      <column name="F_NEWS_ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
+      <primary-key name="SYS_C008031" columns="F_NEWS_ID" />
+      <foreign-key name="SYS_C008018" columns="F_CATEGORY_ID" ref-table="T_CATEGORIES" ref-schema="SAJ" ref-catalog="" ref-columns="F_CATEGORY_ID" update-rule="0" delete-rule="1" deferrability="2" />
+      <exported-key name="SYS_C008240" table="T_COMMENTS" schema="SAJ" catalog="" columns="F_NEWS_ID" />
     </table>
+    <table name="T_NEWS_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
+    <table name="T_ROLES" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_ROLE_ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" version="true" />
+      <column name="F_ROLE_NAME" sqlType="VARCHAR2" length="50" precision="0" nullable="false" jdbcType="12" version="true" />
+      <primary-key name="SYS_C008172" columns="F_ROLE_ID" />
+      <exported-key name="SYS_C008184" table="T_ROLES_USERS" schema="SAJ" catalog="" columns="F_ROLE_ID" />
+    </table>
+    <table name="T_ROLES_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
+    <table name="T_ROLES_USERS" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_USER_ID" sqlType="VARCHAR2" length="40" precision="0" nullable="false" jdbcType="12" />
+      <column name="F_ROLE_ID" sqlType="NUMBER" length="0" precision="-127" nullable="false" jdbcType="3" />
+      <foreign-key name="SYS_C008184" columns="F_ROLE_ID" ref-table="T_ROLES" ref-schema="SAJ" ref-catalog="" ref-columns="F_ROLE_ID" update-rule="0" delete-rule="1" deferrability="2" />
+      <foreign-key name="SYS_C008185" columns="F_USER_ID" ref-table="T_USERS" ref-schema="SAJ" ref-catalog="" ref-columns="F_USER_ID" update-rule="0" delete-rule="1" deferrability="2" />
+    </table>
+    <table name="T_USERS" schema="SAJ" catalog="" type="TABLE">
+      <column name="F_USER_ID" sqlType="VARCHAR2" length="40" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_PASSWORD" sqlType="VARCHAR2" length="10" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_NAME" sqlType="VARCHAR2" length="50" precision="0" nullable="false" jdbcType="12" version="true" />
+      <column name="F_SECONDNAME" sqlType="VARCHAR2" length="50" precision="0" nullable="false" jdbcType="12" version="true" />
+      <primary-key name="PRIMARY_2" columns="F_USER_ID" />
+      <exported-key name="SYS_C008241" table="T_COMMENTS" schema="SAJ" catalog="" columns="F_USER_ID" />
+      <exported-key name="SYS_C008185" table="T_ROLES_USERS" schema="SAJ" catalog="" columns="F_USER_ID" />
+    </table>
+    <table name="T_USERS_SEQ" schema="SAJ" catalog="" type="SEQUENCE" />
   </data-source>
 </component>

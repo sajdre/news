@@ -1,19 +1,14 @@
 package newsline;
 
-import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import newsline.Command;
-import newsline.ShowContentCommand;
-import newsline.ShowNewsCommand;
+import java.io.IOException;
 
 
 /**
- * Servlet implementation class SiteController
+ * Authentication implementation class SiteController
  */
 
 public class SiteController extends HttpServlet {
@@ -41,7 +36,15 @@ public class SiteController extends HttpServlet {
 			com = new ShowNewsCommand();
 		}else if(operation.equals("shownews")){
 			com = new ShowContentCommand();
-		}com.execute(request, response);
+		}else if(operation.equals("addcomment")){
+            com = new AddComment();
+        }else if(operation.equals("addnews")){
+            com = new AddNews();
+        }else if(operation.equals("addwritenews")){
+            com = new AddWriteNews();
+        }else{
+            com = new ShowNewsCommand();
+        }com.execute(request, response);
 	}
 
 	/**

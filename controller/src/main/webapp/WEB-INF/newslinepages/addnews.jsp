@@ -7,7 +7,7 @@
 <title>Add news</title>
 </head>
 <body>
-<form action="/admin/" method="post">
+<form action="/site/" method="post">
 <p>
 <input type="hidden" name="operation" value="addwritenews">
 <input type="hidden" name="category" value="<%=request.getParameter("category")%>">

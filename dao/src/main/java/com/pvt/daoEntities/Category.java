@@ -1,20 +1,26 @@
 package com.pvt.daoEntities;
 
+import org.hibernate.annotations.*;
+
 import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.List;
 
 @Entity
-@Table(name = "CATEGORIES")
-@SequenceGenerator(name = "PK", sequenceName = "CATEGORIES_SEQ")
+@Table(name = "T_CATEGORIES")
+@SequenceGenerator(name = "PK", sequenceName = "T_CATEGORIES_SEQ")
 public class Category implements Serializable {
 
 	private static final long serialVersionUID = 1L;
     @OneToMany(mappedBy = "category")
+    @Cascade(org.hibernate.annotations.CascadeType.DELETE)
     private List<News> news;
-    @Column
+    @Column(name="F_CATEGORY")
 	private String category;
     @Id
+    @Column(name = "F_CATEGORY_ID")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
 	private Integer id;
 	public Integer getId() {

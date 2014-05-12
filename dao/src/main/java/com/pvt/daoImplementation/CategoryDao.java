@@ -2,12 +2,11 @@ package com.pvt.daoImplementation;
 
 import com.pvt.daoAbstract.CommonDao;
 import com.pvt.daoConfiguration.HibernateUtil;
+import com.pvt.daoEntities.Category;
 import com.pvt.daoEntities.News;
 import org.apache.log4j.Logger;
-import org.hibernate.Criteria;
+import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.criterion.Criterion;
-import org.hibernate.criterion.Restrictions;
 
 import java.util.List;
 
@@ -18,22 +17,20 @@ import java.util.List;
  * Time: 19:26
  * To change this template use File | Settings | File Templates.
  */
-public class NewsDao extends CommonDao<News> {
-    Logger log = Logger.getLogger(NewsDao.class);
-    public NewsDao() {
-        super(News.class);
+public class CategoryDao extends CommonDao<Category> {
+
+    public CategoryDao() {
+        super(Category.class);
     }
-
-    public List<News> getNewsByCategoryId(Integer id){
+    public List<News> getNewsByCategory(Category cat){
+        Logger log = Logger.getLogger(CategoryDao.class);
+        List<News> news = null;
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-        t = session.beginTransaction();
-        Criteria cr = session.createCriteria(News.class);
-        Criterion rest = Restrictions.eq("category_id", id);
-        List<News> newslist = null;
-
         try{
-        newslist = cr.add(rest).list();
-        t.commit();
+        t = session.beginTransaction();
+        Query query = session.createQuery("FROM News WHERE category =" + cat.getId());
+        news = (List<News>) query.list();
+        session.getTransaction().commit();
         }catch(RuntimeException e){
             log.info("Couldn`t get news", e);
             try{
@@ -43,10 +40,9 @@ public class NewsDao extends CommonDao<News> {
             }
         }finally {
             if (session != null && session.isOpen()) {
-                session.close();
+            session.close();
             }
         }
-
-        return newslist;
+        return news;
     }
 }

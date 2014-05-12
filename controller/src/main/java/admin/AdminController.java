@@ -1,4 +1,7 @@
 package admin;
+import admin.commands.*;
+import org.apache.log4j.Logger;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,8 +14,8 @@ public class AdminController extends HttpServlet {
 		 * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response)
 		 */
 		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-			
-			String operation = request.getParameter("operation");
+			Logger log = Logger.getLogger(AdminController.class);
+            String operation = request.getParameter("operation");
 			
 			Command com = null;
 			
@@ -41,13 +44,22 @@ public class AdminController extends HttpServlet {
 				com = new DeleteCategoryCommand();
 			}else if(operation.equals("showonlythiscategory")){
 				com = new ShowOnlyThisCategoryCommand();
-			}else if(operation.equals("showonlytoday")){
-				com = new ShowOnlyTodayCommand();
 			}else if(operation.equals("showondate")){
 				com = new ShowOnDateCommand();
-			}
-				
+			}else if(operation.equals("showusers")){
+                com = new ShowUsers();
+            }else if(operation.equals("showusersby")){
+                com = new ShowUsersBy();
+            }else if(operation.equals("userrights")){
+                com = new ShowUserRights();
+            }else if(operation.equals("changerights")){
+                com = new ChangeUserRights();
+            }
+			try{
 			com.execute(request, response);
+            }catch (RuntimeException rte){
+                log.info("Command doesn`t work", rte);
+            }
 		}
 
 		/**

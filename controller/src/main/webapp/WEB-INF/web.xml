@@ -20,18 +20,57 @@
         <servlet-name>SiteController</servlet-name>
         <servlet-class>newsline.SiteController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Authentication</servlet-name>
+        <servlet-class>authentication.servlets.Authentication</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>authentication.servlets.Registration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>authentication.servlets.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/logout/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/registration/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Authentication</servlet-name>
+        <url-pattern>/auth/</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>SiteController</servlet-name>
         <url-pattern>/site/</url-pattern>
     </servlet-mapping>
     <filter>
-        <filter-name>Authentication</filter-name>
-        <filter-class>authentication.Authentication</filter-class>
+        <filter-name>AdminCheck</filter-name>
+        <filter-class>authentication.filters.AdminCheck</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>Authentication</filter-name>
+        <filter-name>AdminCheck</filter-name>
         <url-pattern>/admin/</url-pattern>
     </filter-mapping>
-
+    <filter>
+    <filter-name>UserCheck</filter-name>
+    <filter-class>authentication.filters.UserCheck</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>UserCheck</filter-name>
+        <url-pattern>/site/</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>AuthorCheck</filter-name>
+        <filter-class>authentication.filters.AuthorCheck</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthorCheck</filter-name>
+        <url-pattern>/site/</url-pattern>
+    </filter-mapping>
 
 </web-app>

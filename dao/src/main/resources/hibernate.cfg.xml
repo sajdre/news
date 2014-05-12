@@ -12,10 +12,11 @@
         <property name="show_sql">true</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.cache.use_structured_entries">true</property>
+
         <mapping class="com.pvt.daoEntities.Category"/>
-        <mapping class="com.pvt.daoEntities.Users"/>
+        <mapping class="com.pvt.daoEntities.User"/>
         <mapping class="com.pvt.daoEntities.News"/>
-
+        <mapping class="com.pvt.daoEntities.Role"/>
+        <mapping class="com.pvt.daoEntities.Comment"/>
     </session-factory>
-
 </hibernate-configuration>

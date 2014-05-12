@@ -1,33 +1,45 @@
 package com.pvt.daoEntities;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
-@Table(name = "NEWS")
-@SequenceGenerator(name = "PK", sequenceName = "NEWS_SEQ")
+@Table(name = "T_NEWS")
+@SequenceGenerator(name = "PK", sequenceName = "T_NEWS_SEQ")
 public class News implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
     @Id
+    @Column(name = "F_NEWS_ID")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PK")
     private Integer id;
     @ManyToOne
-    @JoinColumn(name = "CATEGORY_ID", updatable = false, insertable = false)
+    @JoinColumn(name = "F_CATEGORY_ID", updatable = false, insertable = false)
     private Category category;
-    @Column(name = "title")
+    @Column(name = "F_TITLE")
     private String title;
-    @Column(name = "annotation")
+    @Column(name = "F_ANNOTATION")
     private String annotation;
-    @Column(name = "author")
+    @Column(name = "F_AUTHOR")
     private String author;
-    @Column(name = "creationdate")
+    @Column(name = "F_CREATIONDATE")
     private String creationdate;
-    @Column(name = "content")
+    @Column(name = "F_CONTENT")
     private String content;
-    @Column(name = "category_id")
+    @Column(name = "F_CATEGORY_ID")
     private Integer category_id;
+
+    @OneToMany(mappedBy = "news")
+    @LazyCollection(value = LazyCollectionOption.FALSE)
+    @Cascade(org.hibernate.annotations.CascadeType.ALL)
+    @OrderBy(value = "number")
+    List<Comment> comments;
 	public Category getCategory() {
 		return category;
 	}
@@ -70,7 +82,13 @@ public class News implements Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+    public List<Comment> getComments() {
+        return comments;
+    }
 
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
 
 	@Override
 	public String toString() {

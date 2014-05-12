@@ -16,8 +16,9 @@ public abstract class CommonDao<T> {
 
     Logger log = Logger.getLogger(CommonDao.class);
     Session session;
-    Transaction t;
+    protected Transaction t = null;
     protected Class<T> clazz;
+    protected List<T> list = null;
 
 
 
@@ -32,7 +33,8 @@ public abstract class CommonDao<T> {
         t.commit();
         }catch(RuntimeException e){
             try{
-             t.rollback();
+                log.info("HibernateException", e);
+                t.rollback();
             }catch (RuntimeException rbe){
                 log.info("Couldn`t rollback transaction", rbe);
             }
@@ -110,7 +112,6 @@ public abstract class CommonDao<T> {
     }
 
     public List<T> list() throws Exception {
-        List<T> list = null;
         session = HibernateUtil.getSessionFactory().getCurrentSession();
         try {
             t = session.beginTransaction();

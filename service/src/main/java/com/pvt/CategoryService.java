@@ -2,7 +2,7 @@ package com.pvt;
 
 import com.pvt.daoEntities.Category;
 import com.pvt.daoEntities.News;
-import com.pvt.daoImplementation.CategoriesDao;
+import com.pvt.daoImplementation.CategoryDao;
 
 import java.io.Serializable;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class CategoryService {
-    CategoriesDao categorydao = new CategoriesDao();
+    CategoryDao categorydao = new CategoryDao();
     public void saveCategory(Category category){
         categorydao.save(category);
     }

@@ -22,12 +22,17 @@ public class NewsService {
     public News getNewsById(Serializable id){
         return newsdao.getById(id);
     }
+
     public List<News> getNewsList(){
         try {
             return newsdao.list();
         } catch (Exception e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         return null;
+    }
+
+    public List<News> getNewsByCategoryId(Integer id){
+        return newsdao.getNewsByCategoryId(id);
     }
 }
