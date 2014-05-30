@@ -1,10 +1,12 @@
 package com.pvt.service;
 
+import com.pvt.dao.IUserDao;
 import com.pvt.daoEntities.Role;
 import com.pvt.daoEntities.User;
-import com.pvt.dao.UserDaoImplementation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
 import java.util.Iterator;
@@ -21,26 +23,26 @@ import java.util.List;
 public class UserService implements IUserService {
 
     @Autowired
-    UserDaoImplementation usersDao;
-
+    IUserDao usersDao;
+    @Transactional(propagation = Propagation.REQUIRED)
     public User getUserById(Serializable id){
         User user;
         user = usersDao.getById(id);
         return user;
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public void update(User user){
         usersDao.update(user);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<User> getUserBy(String email, String firstname, String secondname){
         return usersDao.getUserByCriteria(email, firstname, secondname);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public void save(User user){
         usersDao.save(user);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean isAdmin(User user){
         List<Role> roles = user.getRoles();
         Iterator iterator = roles.iterator();
@@ -52,7 +54,7 @@ public class UserService implements IUserService {
         }
         return false;
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean isUser(User user){
         List<Role> roles = user.getRoles();
         Iterator iterator = roles.iterator();
@@ -64,7 +66,7 @@ public class UserService implements IUserService {
         }
         return false;
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean isAuthor(User user){
         List<Role> roles = user.getRoles();
         Iterator iterator = roles.iterator();

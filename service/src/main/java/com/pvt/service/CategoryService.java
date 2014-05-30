@@ -1,10 +1,12 @@
 package com.pvt.service;
 
+import com.pvt.dao.ICategoryDao;
 import com.pvt.daoEntities.Category;
 import com.pvt.daoEntities.News;
-import com.pvt.dao.CategoryDaoImplementation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
 import java.util.List;
@@ -16,39 +18,43 @@ import java.util.List;
  * Time: 20:47
  * To change this template use File | Settings | File Templates.
  */
+@Transactional
 @Service
 public class CategoryService implements ICategoryService {
 
     Category cat;
 
     @Autowired
-    CategoryDaoImplementation categoryDao;
-
+    ICategoryDao categoryDao;
+    @Transactional(propagation = Propagation.REQUIRED)
     public void saveCategory(Category category){
         categoryDao.save(category);
     }
+    @Transactional(propagation = Propagation.REQUIRED)
     public void saveCategory(String category){
         cat = new Category();
         cat.setCategory(category);
         categoryDao.save(cat);
     };
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public void deleteCategory(Category category){
         categoryDao.delete(category);
     }
+    @Transactional(propagation = Propagation.REQUIRED)
     public void deleteCategory(Integer id){
         Category cat = new Category();
         cat.setId(id);
         categoryDao.delete(cat);
     }
+    @Transactional(propagation = Propagation.REQUIRED)
     public void updateCategory(Category category){
         categoryDao.update(category);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public Category getCategoryById(Serializable id){
         return categoryDao.getById(id);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<Category> getCategoryList(){
         List<Category> list = null;
         try {
@@ -58,7 +64,7 @@ public class CategoryService implements ICategoryService {
 }
         return list;
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<News> getNewsByCategory(Category cat){
         return categoryDao.getNewsByCategory(cat);
     }
