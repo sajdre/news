@@ -2,131 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" name="Default" comment="annotation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/AddComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/AddNews.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/AddWriteNews.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/servlets/Authentication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/filters/AuthorCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ChangeUserRights.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CommentDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/CommentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/servlets/LogOut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/servlets/Registration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/RoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowUserRights.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowUsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowUsersBy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/filters/UserCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/addnews.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/registration/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/usercontrol.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/userrights.jsp" />
-      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\ShowOnlyTodayCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\tabcontent.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\templatemo_style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ids" afterPath="$PROJECT_DIR$/news.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/admin/AdminController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Category.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/CategoryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/News.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/News.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/NewsDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/NewsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowContentCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/ShowNewsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/newsline/SiteController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/newsline/SiteController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addcategory.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addcategory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/content.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/content.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/dao/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/index.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/mainadmin.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/mainadmin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/CategoryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/CommentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICategoryDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/ICategoryService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/ICommentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommonDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/INewsDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/INewsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/IRoleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/IRoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/IUserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/IUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/MainAdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/NewsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/RoleDaoImplementation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/com/pvt/newsline/SiteController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/resources/log4j.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/security-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-context.xml" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\controller.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\AdminController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\AddCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\AddNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\AddWriteCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\AddWriteNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ChangeUserRights.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\Command.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\DeleteCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\DeleteNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\EditCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\EditNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\EditWriteCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\EditWriteNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowOnDateCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowOnlyThisCategoryCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowUserRights.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowUsers.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\admin\commands\ShowUsersBy.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\filters\AdminCheck.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\filters\AuthorCheck.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\filters\UserCheck.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\registration\registration.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\servlets\Authentication.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\authentication\servlets\Registration.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\AddComment.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\AddNews.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\AddWriteNews.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\Command.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\ShowContentCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\ShowNewsCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\java\newsline\SiteController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\newslinepages\addnews.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\controller\src\main\webapp\images\tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\dao\dao.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoConfiguration\HibernateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\RoleDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\dao\src\main\resources\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\service\service.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\CommentService.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/resources/log4j.xml" afterPath="$PROJECT_DIR$/dao/src/main/resources/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iml" afterPath="$PROJECT_DIR$/news.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.ipr" afterPath="$PROJECT_DIR$/news.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.iws" afterPath="$PROJECT_DIR$/news.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/pom.xml" afterPath="$PROJECT_DIR$/controller/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\AddCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/AddCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\AddNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/AddNewsCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\AddWriteCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/AddWriteCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\AddWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/AddWriteNewsCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\Command.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/Command.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\DeleteCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/DeleteCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\DeleteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/DeleteNewsCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\EditCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/EditCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\EditNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/EditNewsCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\EditWriteCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/EditWriteCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\EditWriteNewsCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/EditWriteNewsCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\ShowCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\ShowOnDateCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowOnDateCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\admin\ShowOnlyThisCategoryCommand.java" afterPath="$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowOnlyThisCategoryCommand.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\java\authentication\Authentication.java" afterPath="$PROJECT_DIR$/controller/src/main/java/authentication/filters/AdminCheck.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\images\tomcat.png" afterPath="$PROJECT_DIR$/controller/src/main/webapp/images/tomcat.png" />
-      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoEntities\Users.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/User.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\CategoriesDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CategoryDao.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\UsersDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UserDao.java" />
-      <change type="MOVED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\UsersService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/UserService.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\addcategory.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/addcategory.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\addnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/addnews.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\editcategory.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/editcategory.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\editnews.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/editnews.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\mainadmin.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/mainadmin.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\usercontrol.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/usercontrol.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages\userrights.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/userrights.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\newslinepages\content.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/content.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\newslinepages\index.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/index.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\controller\src\main\webapp\WEB-INF\registration\index.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/jsp/registration.jsp" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoAbstract\CommonDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommonDaoImplementation.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\CategoryDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CategoryDaoImplementation.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\CommentDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/CommentDaoImplementation.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\NewsDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/NewsDaoImplementation.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\dao\src\main\java\com\pvt\daoImplementation\UserDao.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/UserDaoImplementation.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\CategoryService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/CategoryService.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\NewsService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/NewsService.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\RoleService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/RoleService.java" />
+      <change type="MOVED" beforePath="D:\Projects\news\service\src\main\java\com\pvt\UserService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/pvt/service/UserService.java" />
     </list>
     <list id="e143d922-9742-4672-9f11-83452f623ca3" name="09.05.2014" comment="" />
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398697793859" ignored="false" />
+    <file path="/pom.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401396571613" ignored="false" />
     <file path="/Users.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399214314028" ignored="false" />
     <file path="/dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398692830969" ignored="false" />
-    <file path="/Command.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397507406073" ignored="false" />
-    <file path="/AddNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397507509413" ignored="false" />
+    <file path="/Command.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401144154084" ignored="false" />
+    <file path="/AddNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401472935972" ignored="false" />
     <file path="/dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397590762921" ignored="false" />
-    <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399922394572" ignored="false" />
+    <file path="/fragment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401481895134" ignored="false" />
     <file path="/news-dao.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397675716702" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399834166333" ignored="false" />
-    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399922620779" ignored="false" />
-    <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399320008700" ignored="false" />
+    <file path="/Dummy.txt" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401479737530" ignored="false" />
+    <file path="/Data Source" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401224868170" ignored="false" />
     <file path="/News.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398445936648" ignored="false" />
     <file path="/Users.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397945919875" ignored="false" />
-    <file path="/web.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399728556326" ignored="false" />
+    <file path="/web.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401393493903" ignored="false" />
     <file path="/Category.hbm.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398284999581" ignored="false" />
     <file path="/Category.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399833647059" ignored="false" />
     <file path="/Dao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397765733074" ignored="false" />
     <file path="/Newsdao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397766184640" ignored="false" />
-    <file path="/CommonDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399739645215" ignored="false" />
+    <file path="/CommonDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401136171441" ignored="false" />
     <file path="/DaoI.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397833843796" ignored="false" />
     <file path="/CategoriesDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398783406184" ignored="false" />
     <file path="/NewsDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399828356422" ignored="false" />
     <file path="/UsersDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397835344217" ignored="false" />
-    <file path="/AdminController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399321148178" ignored="false" />
+    <file path="/AdminController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401137795530" ignored="false" />
     <file path="/UsersService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398273808622" ignored="false" />
-    <file path="/CategoryService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398718411387" ignored="false" />
-    <file path="/NewsService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399828483144" ignored="false" />
-    <file path="/ShowCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398718399097" ignored="false" />
-    <file path="/mainadmin.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399734606463" ignored="false" />
-    <file path="/AddWriteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397842456453" ignored="false" />
-    <file path="/AddWriteNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398788340708" ignored="false" />
-    <file path="/DeleteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397843917196" ignored="false" />
+    <file path="/CategoryService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401480009498" ignored="false" />
+    <file path="/NewsService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401478605563" ignored="false" />
+    <file path="/ShowCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401465275023" ignored="false" />
+    <file path="/mainadmin.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401472892989" ignored="false" />
+    <file path="/AddWriteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401471344653" ignored="false" />
+    <file path="/AddWriteNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401473557234" ignored="false" />
+    <file path="/DeleteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401471645896" ignored="false" />
     <file path="/DeleteNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398456416132" ignored="false" />
-    <file path="/EditCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397992074653" ignored="false" />
+    <file path="/EditCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401472235136" ignored="false" />
     <file path="/EditNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398496106665" ignored="false" />
-    <file path="/EditWriteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397845284324" ignored="false" />
+    <file path="/EditWriteCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401472462156" ignored="false" />
     <file path="/EditWriteNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398719089962" ignored="false" />
     <file path="/ShowOnDateCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398860946582" ignored="false" />
     <file path="/ShowOnlyThisCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1397845433229" ignored="false" />
     <file path="/ShowOnlyTodayCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398861462160" ignored="false" />
-    <file path="/ShowContentCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399844209314" ignored="false" />
-    <file path="/ShowNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399918122118" ignored="false" />
-    <file path="/log4j.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398455027700" ignored="false" />
+    <file path="/ShowContentCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401378621948" ignored="false" />
+    <file path="/ShowNewsCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401469289752" ignored="false" />
+    <file path="/log4j.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401306123202" ignored="false" />
     <file path="/Hbutils.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398694777408" ignored="false" />
     <file path="/editcategory.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399924159792" ignored="false" />
     <file path="/dummy.sql" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399847948021" ignored="false" />
     <file path="/a.sql" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399847948021" ignored="false" />
-    <file path="/addnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399919659421" ignored="false" />
-    <file path="/editnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399924119851" ignored="false" />
+    <file path="/addnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401473744308" ignored="false" />
+    <file path="/editnews.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401480116275" ignored="false" />
     <file path="/Authentication.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399738219927" ignored="false" />
     <file path="dbtable:/newsc7a0df0a/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.CATEGORIES" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398017136053" ignored="false" />
     <file path="/index.html" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398456817051" ignored="false" />
-    <file path="/index.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399921920865" ignored="false" />
+    <file path="/index.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401481144420" ignored="false" />
     <file path="/content.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399913986307" ignored="false" />
     <file path="/CategoriesDaoImpl.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1398499925556" ignored="false" />
     <file path="/News.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399923362542" ignored="false" />
@@ -150,12 +172,12 @@
     <file path="/ShowUsersByCriteria.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399217487232" ignored="false" />
     <file path="/RoleDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399307358517" ignored="false" />
     <file path="/UserDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399485556171" ignored="false" />
-    <file path="/ShowUsers.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399223966649" ignored="false" />
+    <file path="/ShowUsers.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401464021018" ignored="false" />
     <file path="/ShowUsersBy.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399222600106" ignored="false" />
-    <file path="/UserService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399918156652" ignored="false" />
+    <file path="/UserService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401177139510" ignored="false" />
     <file path="/ShowUserRights.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399741277963" ignored="false" />
     <file path="/userrights.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399734659915" ignored="false" />
-    <file path="/RoleService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399739909069" ignored="false" />
+    <file path="/RoleService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401181575471" ignored="false" />
     <file path="/ChangeUserRights.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399742468525" ignored="false" />
     <file path="$USER_HOME$/Downloads/untitled/.idea/workspace.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399647992534" ignored="false" />
     <file path="/AuthorCheck.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399724912761" ignored="false" />
@@ -164,13 +186,34 @@
     <file path="/LogOut.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399728973557" ignored="false" />
     <file path="/Registration.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399736373344" ignored="false" />
     <file path="/addcategory.jsp" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399734569213" ignored="false" />
-    <file path="/SiteController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399919839442" ignored="false" />
+    <file path="/SiteController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401480787140" ignored="false" />
     <file path="/Comment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399846897399" ignored="false" />
-    <file path="/CommentDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399848193918" ignored="false" />
-    <file path="/CommentService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399842068196" ignored="false" />
-    <file path="/AddComment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399915130015" ignored="false" />
-    <file path="/AddNews.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399919500134" ignored="false" />
-    <file path="/AddWriteNews.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1399922471602" ignored="false" />
+    <file path="/CommentDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401136946405" ignored="false" />
+    <file path="/CommentService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401176724763" ignored="false" />
+    <file path="/AddComment.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401223317300" ignored="false" />
+    <file path="/AddNews.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401379083189" ignored="false" />
+    <file path="/AddWriteNews.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401378897262" ignored="false" />
+    <file path="/CategoryDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401136843058" ignored="false" />
+    <file path="/spring-config.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401389734270" ignored="false" />
+    <file path="/AddCategoryCommand.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401470528393" ignored="false" />
+    <file path="/CommonDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401305758622" ignored="false" />
+    <file path="/ICommonDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401173382978" ignored="false" />
+    <file path="/ICategoryDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401172603247" ignored="false" />
+    <file path="/CategoryDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401471193860" ignored="false" />
+    <file path="/ICommentDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401174358996" ignored="false" />
+    <file path="/CommentDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401174567863" ignored="false" />
+    <file path="/IUserDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401174734496" ignored="false" />
+    <file path="/UserDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401174786577" ignored="false" />
+    <file path="/INewsDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401175120113" ignored="false" />
+    <file path="/NewsDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401174971436" ignored="false" />
+    <file path="/IRoleDao.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401176137167" ignored="false" />
+    <file path="/RoleDaoImplementation.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401176194949" ignored="false" />
+    <file path="/security.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401387060448" ignored="false" />
+    <file path="/security-context.xml" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401467139001" ignored="false" />
+    <file path="/ICategoryService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401471736838" ignored="false" />
+    <file path="/NewsController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401481593262" ignored="false" />
+    <file path="/CategoryController.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401477820314" ignored="false" />
+    <file path="/INewsService.java" changelist="8eb03ce5-fd8a-4dc0-8318-e25bd2235212" time="1401478484521" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +238,9 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -231,7 +276,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/NewsService.java" line="3" class="NewsService.java" package="">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/NewsService.java" line="3" class="NewsService.java" package="">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -245,7 +290,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowCommand.java" line="20" class="admin.commands.ShowCommand" package="admin.commands">
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/MainAdminController.java" line="24" class="com.pvt.admin.commands.MainAdminController" package="com.pvt.admin.commands">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -259,7 +304,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/DeleteNewsCommand.java" line="16" class="admin.commands.DeleteNewsCommand" package="admin.commands">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/CategoryService.java" line="48" class="com.pvt.service.CategoryService" package="com.pvt.service">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -273,189 +318,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/EditWriteNewsCommand.java" line="18" class="admin.commands.EditWriteNewsCommand" package="admin.commands">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="24" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/UserDao.java" line="43" class="com.pvt.daoImplementation.UserDao" package="com.pvt.daoImplementation">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/UserService.java" line="31" class="com.pvt.UserService" package="com.pvt">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/ShowUsersBy.java" line="24" class="admin.commands.ShowUsersBy" package="admin.commands">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/userrights.jsp" line="11" class="userrights.jsp" package="D:\Projects\news\controller\src\main\webapp\WEB-INF\adminpages">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="76" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/ChangeUserRights.java" line="30" class="admin.commands.ChangeUserRights" package="admin.commands">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/com/pvt/RoleService.java" line="45" class="com.pvt.RoleService" package="com.pvt">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="25" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/newsline/SiteController.java" line="39" class="newsline.SiteController" package="newsline">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="101" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/NewsDao.java" line="37" class="com.pvt.daoImplementation.NewsDao" package="com.pvt.daoImplementation">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoAbstract/CommonDao.java" line="32" class="com.pvt.daoAbstract.CommonDao" package="com.pvt.daoAbstract">
+      <breakpoint url="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/CategoryController.java" line="31" class="com.pvt.admin.commands.CategoryController" package="com.pvt.admin.commands">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -468,24 +331,8 @@
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoImplementation/CommentDao.java" line="34" class="com.pvt.daoImplementation.CommentDao" package="com.pvt.daoImplementation">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -495,91 +342,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EditNewsCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/EditNewsCommand.java">
+      <file leaf-file-name="ICommonDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+            <state line="12" column="17" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editnews.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp">
+      <file leaf-file-name="ICommentDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="73" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-4.3076925">
+            <state line="11" column="17" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addnews.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/addnews.jsp">
+      <file leaf-file-name="ICategoryDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICategoryDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.923077">
+            <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/content.jsp">
+      <file leaf-file-name="INewsDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/INewsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="394" selection-end="431" vertical-scroll-proportion="-7.8461537">
+            <state line="13" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/index.jsp">
+      <file leaf-file-name="IRoleDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/IRoleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="120" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.7393162">
+            <state line="13" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editcategory.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp">
+      <file leaf-file-name="ICategoryService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/ICategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="69" selection-start="640" selection-end="640" vertical-scroll-proportion="-5.423077">
+            <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditCategoryCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/EditCategoryCommand.java">
+      <file leaf-file-name="INewsService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/INewsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addcategory.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addcategory.jsp">
+      <file leaf-file-name="NewsController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/NewsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="16" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usercontrol.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/usercontrol.jsp">
+      <file leaf-file-name="CategoryController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="20" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainadmin.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/mainadmin.jsp">
+      <file leaf-file-name="MainAdminController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/MainAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="64" vertical-scroll-proportion="-0.0">
+            <state line="34" column="72" selection-start="999" selection-end="999" vertical-scroll-proportion="0.65361446">
               <folding />
             </state>
           </provider>
@@ -629,30 +478,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/controller/src/main/java/newsline/AddComment.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/UserService.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/newsline/ShowNewsCommand.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/addnews.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/newsline/SiteController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/newsline/AddNews.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/newsline/AddWriteNews.java" />
-        <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_NEWS" />
-        <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_ROLES" />
-        <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_COMMENTS" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/commands/CategoryController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/service/INewsService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/service/NewsService.java" />
         <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_CATEGORIES" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/News.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/admin/commands/EditNewsCommand.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/index.jsp" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/pvt/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/jsp/editnews.jsp" />
+        <option value="dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_NEWS" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/newsline/SiteController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/commands/NewsController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/jsp/mainadmin.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/ICategoryController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/INewsController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/NewsController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/CategoryController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/MainAdminController.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -670,15 +519,19 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="service" />
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="news" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -687,17 +540,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="dao" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="dao" />
+          <option name="myItemId" value="news" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -765,7 +608,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -794,7 +636,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -808,29 +650,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -846,41 +666,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pvt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pvt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daoEntities" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -954,11 +740,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newslinepages" />
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -981,44 +763,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminpages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1045,6 +789,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pvt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1077,77 +825,22 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="pvt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/dao/src/main/java/com/pvt" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/service/src/main/java/com/pvt" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
@@ -1156,7 +849,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../news3/news3.iml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -1187,28 +880,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF" />
+      <recent name="D:\Projects\news\controller\src\main\resources" />
+      <recent name="D:\Projects\news\dao\src\main\resources" />
       <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF\newslinepages" />
       <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF\registration" />
-      <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF" />
-      <recent name="D:\Projects\news\dao\src\main\resources" />
-      <recent name="D:\Projects\news\dao\src\main\java\com\pvt\dao" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\news\controller\src\main\webapp" />
+      <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\Projects\news\controller\src\main\webapp\WEB-INF" />
       <recent name="D:\Projects\news1\dao\src\main" />
       <recent name="D:\Projects\news\dao\src\main\java\com\pvt" />
-      <recent name="D:\Projects\news\dao\src\main\java" />
-      <recent name="D:\Projects\news\dao\src\main\java\com\pvt\dao" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="authentication.servlets" />
-      <recent name="authentication.adminfilter" />
-      <recent name="jspfn" />
-      <recent name="admin.commands" />
-      <recent name="com.pvt.daoEntities" />
+      <recent name="com.pvt.admin" />
+      <recent name="com.pvt.service" />
+      <recent name="com.pvt.dao" />
+      <recent name="com.pvt" />
+      <recent name="authentication" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.52">
@@ -1350,6 +1043,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52">
+      <option name="COMMON_VM_ARGUMENTS" value="-Duser.country=en -Duser.language=en" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="controller:war">
@@ -1405,9 +1099,8 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.52" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.52" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1521,25 +1214,25 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.47878787" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.2197615" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16742425" sideWeight="0.5451448" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2572402" sideWeight="0.55833334" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61669505" sideWeight="0.43636364" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.681431" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42589438" sideWeight="0.55833334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.318569" sideWeight="0.54015154" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4787053" sideWeight="0.46666667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5672913" sideWeight="0.46666667" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27348486" sideWeight="0.37308347" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2719697" sideWeight="0.085178874" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11818182" sideWeight="0.5451448" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3090909" sideWeight="0.6132879" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28863636" sideWeight="0.5451448" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4548552" sideWeight="0.45757577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22954546" sideWeight="0.681431" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.318569" sideWeight="0.45454547" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.2197615" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1648,7 +1341,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_CATEGORIES">
+    <entry file="dbDummy://dbtable:/newsaf9903dd/d7502511-5687-485c-8c33-a0312fd182ed/.SAJ.T_NEWS">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
@@ -1658,107 +1351,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Comment.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/newsline/SiteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="49" column="36" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/Category.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="454" selection-end="513" vertical-scroll-proportion="0.0">
+        <state line="54" column="19" selection-start="2258" selection-end="2258" vertical-scroll-proportion="-6.6153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/daoEntities/News.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/jsp/addnews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="56" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
+        <state line="15" column="27" selection-start="672" selection-end="672" vertical-scroll-proportion="-4.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/jsp/mainadmin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+        <state line="28" column="28" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addnews.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/addcategory.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICommentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="17" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/usercontrol.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/ICategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/mainadmin.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/INewsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="64" vertical-scroll-proportion="-0.0">
+        <state line="13" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/addnews.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/pvt/dao/IRoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.923077">
+        <state line="13" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/EditNewsCommand.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/ICategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editnews.jsp">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/pvt/service/INewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="73" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-4.3076925">
+        <state line="18" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/adminpages/editcategory.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="69" selection-start="640" selection-end="640" vertical-scroll-proportion="-5.423077">
+        <state line="16" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/admin/commands/EditCategoryCommand.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="20" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/content.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/pvt/admin/MainAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="394" selection-end="431" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/newslinepages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="120" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.7393162">
+        <state line="34" column="72" selection-start="999" selection-end="999" vertical-scroll-proportion="0.65361446">
           <folding />
         </state>
       </provider>
