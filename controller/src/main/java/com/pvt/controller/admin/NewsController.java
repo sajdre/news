@@ -1,4 +1,4 @@
-package com.pvt.admin;
+package com.pvt.controller.admin;
 
 import com.pvt.daoEntities.News;
 import com.pvt.service.*;

@@ -4,7 +4,6 @@ import com.pvt.daoEntities.Category;
 import com.pvt.daoEntities.News;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
-import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -25,32 +24,15 @@ public class CategoryDaoImplementation extends CommonDaoImplementation<Category>
         super(Category.class);
     }
 
-    Session session;
-
     @Autowired
     public SessionFactory sessionFactory;
 
     public List<News> getNewsByCategory(Category cat){
         Logger log = Logger.getLogger(CategoryDaoImplementation.class);
         List<News> news = null;
-        session = sessionFactory.getCurrentSession();
-        try{
-        t = session.beginTransaction();
-        Query query = session.createQuery("FROM News WHERE category =" + cat.getId());
+
+        Query query = sessionFactory.getCurrentSession().createQuery("FROM News WHERE category =" + cat.getId());
         news = (List<News>) query.list();
-        session.getTransaction().commit();
-        }catch(RuntimeException e){
-            log.info("Couldn`t get news", e);
-            try{
-                t.rollback();
-            }catch (RuntimeException rbe){
-                log.info("Couldn`t rollback transaction", rbe);
-            }
-        }finally {
-            if (session != null && session.isOpen()) {
-            session.close();
-            }
-        }
         return news;
     }
 

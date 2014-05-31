@@ -1,4 +1,4 @@
-package com.pvt.newsline;
+package com.pvt.controller.newsline;
 
 import com.pvt.daoEntities.News;
 import com.pvt.service.*;
@@ -20,19 +20,10 @@ import java.util.Map;
 public class SiteController {
 
     @Autowired
-    protected IUserService userService;
-
-    @Autowired
     protected ICategoryService categoryService;
 
     @Autowired
-    protected ICommentService commentService;
-
-    @Autowired
     protected INewsService newsService;
-
-    @Autowired
-    protected IRoleService roleService;
 
     @RequestMapping(value = "/site/", params = "operation=shownews")
     public String showContentHandler(@RequestParam("id") Integer id, Map<String, Object> model) {

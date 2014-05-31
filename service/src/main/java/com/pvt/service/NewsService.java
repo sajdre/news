@@ -9,9 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
 import java.util.List;
-
-@Transactional(propagation = Propagation.REQUIRED)
 @Service
+@Transactional(propagation = Propagation.REQUIRED)
 public class NewsService implements INewsService {
 
     News news;

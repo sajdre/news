@@ -14,7 +14,7 @@ http://www.springframework.org/schema/mvc
 http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd"
        default-autowire="byName">
     <mvc:annotation-driven/>
-    <context:component-scan base-package="com.pvt"/>
+    <context:component-scan base-package="com.pvt.controller"/>
 
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/jsp/" p:suffix=".jsp"/>
 

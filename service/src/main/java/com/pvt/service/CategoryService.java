@@ -18,8 +18,8 @@ import java.util.List;
  * Time: 20:47
  * To change this template use File | Settings | File Templates.
  */
-@Transactional
 @Service
+@Transactional(propagation = Propagation.REQUIRED)
 public class CategoryService implements ICategoryService {
 
     Category cat;
